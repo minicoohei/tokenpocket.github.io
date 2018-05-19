@@ -1,0 +1,573 @@
+<!doctype html>
+<html style='font-size:13px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>terms.md</title><link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}#write, body { height: auto; }
+#write, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write ol, #write p, #write ul { position: relative; }
+#write, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write, pre { white-space: pre-wrap; }
+.CodeMirror, .md-fences, table { text-align: left; }
+.md-reset, a:active, a:hover { outline: 0px; }
+.md-reset, .md-toc-item a { text-decoration: none; }
+.MathJax_SVG, .md-reset { float: none; direction: ltr; }
+:root { --bg-color: #ffffff; --text-color: #333333; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.in-text-selection, ::selection { background-color: rgb(181, 214, 252); text-shadow: none; background-position: initial initial; background-repeat: initial initial; }
+#write { margin: 0px auto; word-break: normal; word-wrap: break-word; padding-bottom: 70px; overflow-x: visible; }
+.first-line-indent #write p .md-line { text-indent: 0px; }
+.first-line-indent #write li, .first-line-indent #write p, .first-line-indent #write p .md-line:first-child { text-indent: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write > blockquote:first-child, #write > div:first-child, #write > ol:first-child, #write > p:first-child, #write > pre:first-child, #write > table:first-child, #write > ul:first-child { margin-top: 30px; }
+#write li > table:first-child { margin-top: -20px; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+p { -webkit-margin-before: 1rem; -webkit-margin-after: 1rem; -webkit-margin-start: 0px; -webkit-margin-end: 0px; }
+.mathjax-block { margin-top: 0px; margin-bottom: 0px; -webkit-margin-before: 0px; -webkit-margin-after: 0px; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+#write > figure:first-child { margin-top: 16px; }
+figure { overflow-x: auto; margin: -8px 0px 0px -8px; max-width: calc(100% + 16px); padding: 8px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; }
+.CodeMirror-line, .md-fences { break-inside: avoid; }
+table.md-table td { min-width: 80px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; margin-right: 4px; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+.md-fences { font-size: 0.9rem; display: block; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+.md-fences .CodeMirror.CodeMirror-wrap { top: -1.6em; margin-bottom: -1.6em; }
+.md-fences.mock-cm { white-space: pre-wrap; }
+.show-fences-line-number .md-fences { padding-left: 0px; }
+.show-fences-line-number .md-fences.mock-cm { padding-left: 40px; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; vertical-align: top; text-shadow: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; background-position: 0px 0px; background-repeat: initial initial; }
+.md-toc-inner, a img, img a { cursor: pointer; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: nowrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; }
+  #write { margin-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  h1, h2, h3, h4, h5, h6 { break-after: avoid-page; orphans: 2; }
+  p { orphans: 4; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 1cm; padding-right: 1cm; padding-bottom: 0px; break-after: avoid-page; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > img:only-child { display: block; margin: auto; }
+.md-line > .md-image:only-child, p > .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
+.mathjax-block:not(:empty)::after, .md-toc-content::after, .md-toc::after { display: none; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.mathjax-block { white-space: pre; overflow: hidden; width: 100%; }
+p + .mathjax-block { margin-top: -1.143rem; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.MathJax_SVG, .mathjax-block .MathJax_SVG_Display { text-indent: 0px; max-width: none; max-height: none; min-height: 0px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-inner:hover { }
+.md-toc-inner { display: inline-block; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: '.'; }
+code, pre, tt { font-family: var(--monospace); }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.mathjax-block .MathJax_SVG_Display { text-align: center; margin: 1em 0px; position: relative; min-width: 100%; width: auto; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: monospace; }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; min-width: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.os-windows.monocolor-emoji .md-emoji { font-family: 'Segoe UI Symbol', sans-serif; }
+.md-diagram-panel > svg, [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Regular'),url('file:///Users/01008677/Library/Application%20Support/abnerworks.Typora/themes/github/400.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Open Sans Italic'),url('file:///Users/01008677/Library/Application%20Support/abnerworks.Typora/themes/github/400i.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Open Sans Bold'),url('file:///Users/01008677/Library/Application%20Support/abnerworks.Typora/themes/github/700.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: bold;
+    src: local('Open Sans Bold Italic'),url('file:///Users/01008677/Library/Application%20Support/abnerworks.Typora/themes/github/700i.woff') format('woff')
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write{
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 20px 30px 40px 30px;
+	padding-top: 20px;
+    padding-bottom: 100px;
+}
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+body > *:first-child {
+    margin-top: 0 !important;
+}
+body > *:last-child {
+    margin-bottom: 0 !important;
+}
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    /*background: url("file:///Users/01008677/Library/Application%20Support/images/modules/styleguide/para.png") no-repeat 10px center;*/
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 4px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+    border-bottom: 1px solid #ddd;
+}
+
+body > h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h1:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h3:first-child,
+body > h4:first-child,
+body > h5:first-child,
+body > h6:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+a:first-child h1,
+a:first-child h2,
+a:first-child h3,
+a:first-child h4,
+a:first-child h5,
+a:first-child h6 {
+    margin-top: 0;
+    padding-top: 0;
+}
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p {
+    margin-top: 0;
+}
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dddddd;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #cccccc;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    border-bottom: 0;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-gutters {
+    border-right: 1px solid #ddd;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0.2em 1em;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media screen and (min-width: 914px) {
+    /*body {
+        width: 854px;
+        margin: 0 auto;
+    }*/
+}
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag{
+	color: inherit;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#md-notification:before {
+    top: 10px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+
+ .typora-export p {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><h1><a name='header-n0' class='md-header-anchor '></a>TokenPocket Terms of Service</h1><p>Last Updated: December 1, 2017.</p><p>Dear User,</p><p>Thank you for choosing TokenPocket. This TokenPocket Terms of Service (“Agreement”) is made between you (“you” or “User”) and TokenPocket inc. (“TokenPocket” or “we”) and is legally binding between you and TokenPocket.</p><p>TokenPocket hereby reminds you that you must carefully read the full content of this Agreement and other documents mentioned in this Agreement before using TokenPocket (“TokenPocket” or “App”). Particularly, you must carefully read the section of “Disclaimer and Limitation of Liability” and other sections which are displayed in bold. You must make sure that you fully understand the whole Agreement and evaluate the risks of using TokenPocket on your own.</p><h3><a name='header-n13' class='md-header-anchor '></a>I. Confirmation and Acceptance of this Agreement</h3><ol><li>This Agreement and other relevant documents apply to TokenPocket and the Decentralized Applications (“DApps”) which are developed and owned independently by TokenPocket on TokenPocket (and excluding DApps developed by third parties).</li><li>After you download TokenPocket and start to create or import wallet, you are deemed as having read and accepted this Agreement, which shall cause this Agreement to become effective and legally binding on both you and TokenPocket immediately.</li><li>TokenPocket may, at its sole discretion, modify or replace this Agreement at any time. The modified Agreement will automatically take effect once it is posted on TokenPocket and you will not be notified separately. If you do not agree with the modifications, you shall cease to use TokenPocket immediately. Use of TokenPocket by you after any modification to this Agreement constitutes your acceptance of this Agreement as modified.</li></ol><h3><a name='header-n19' class='md-header-anchor '></a>II. Definition</h3><ol><li><p>TokenPocket: means the blockchain wallet developed by TokenPocket based on Ethereum (and other blockchain systems which TokenPocket may support in the future) and other supporting tools which are developed for the convenience of the Users when using blockchain systems.</p></li><li><p>User:</p><p>a) a User must be a natural person who possesses full capacity for civil acts;</p><p>b) if you are under 18 years old, please use TokenPocket under the guidance of your parents or guardians. If any person of no capacity for civil acts conducts any transactions on TokenPocket or any person of limited capacity for civil acts conducts any transaction which does not commensurate his/her civil rights or act capacity, the parents or guardians of the User shall be liable for the consequences of such transactions.</p></li><li><p>Create or import wallet: means you use TokenPocket to create or import wallet after you accept this Agreement.</p></li><li><p>Wallet Password: means the password you set when you create the wallet. The Wallet Password will be used to encrypt and protect your Private Key. TokenPocket, as a decentralized application, will not store your Wallet Password on our servers, nor will your Wallet Password be stored in your own mobile devices. If you lose or forget your Wallet Password, you will have to reset the Wallet Password with your Private Key or Mnemonic Words.</p></li><li><p>Alert: means the messages displayed on TokenPocket’s operation interface which provides suggestions for Users on subsequent operations.</p></li><li><p>Specific Users: means Users who should cooperate with TokenPocket and disclose Personal Information in order to comply with the laws, regulations.</p></li><li><p>Private Key: consists of 256 random bits. Private Key is the core for the User to hold and use the Tokens.</p></li><li><p>Public Key: is derived from the Private Key based on cryptography and is used to generate wallet addresses. A wallet address is a public address for reception of Tokens.</p></li><li><p>Mnemonic Words: consists of 12 (or 15/18/21/24) words which are randomly generated, and it is based on BIP39, the industry standard of blockchain. It is a human readable format of words to back up your Private Key for recovery.</p></li><li><p>Keystore: means Private Key or Mnemonic Words in the format of a file which is encrypted and protected by the User’s Wallet Password. Keystore is stored only in your mobile device and will not be synchronized to TokenPocket’ servers.</p></li><li><p>Tokens: means the tokens which are supported by TokenPocket currently, including but not limited to ETH, DGD and so on.</p></li><li><p>Materials: The Materials are TokenPocket’ proprietary properties. User shall not reproduce or distribute the materials without TokenPocket’ permission and authorization.</p></li><li><p>Personal Information: means information recorded in electronic or any other form which may identify a natural person when used alone or in combination with other information, including but not limited to name, date of birth, identification card number, personal biological identification information, address, telephone number, e-mail address, wallet address, mobile device information, operation record, transaction record, but excluding Wallet Password, Private Key, Mnemonic Words and Keystore.</p></li></ol><h3><a name='header-n49' class='md-header-anchor '></a>III. Services</h3><ol><li>Create or import wallet. You may use TokenPocket to create a new wallet or import wallets generated by other wallet application. You may only import wallets with Tokens which are supported by TokenPocket.</li><li>Transfer and receive Tokens. You may manage your digital Tokens by using the transfer and reception functionalities of TokenPocket, i.e., you may revise the blockchain ledger by signing with your Private Key. Transfer of Tokens means the payer transfer the Token to the blockchain address of the payee. The actual transfer of Tokens happens on the blockchain system (instead of on TokenPocket).</li><li>Manage Tokens. You may use TokenPocket to add, manage or delete the Tokens (except ETH) supported by TokenPocket.</li><li>Browse DApps. Users may use TokenPocket to visit and use the services provided by DApps (including DApps developed by TokenPocket and DApps developed by third parties).</li><li>Transaction records. We will copy all or part of your transaction records from the blockchain system. </li><li>Suspension of service. You understand that we are not able to reverse or cancel the transaction because transactions based on blockchain technologies are irrevocable. However, under certain circumstances, we may suspend or limit the function of TokenPocket used by a particular User.</li><li>Other services that TokenPocket would like to provide.</li></ol><p>Users who use TokenPocket must understand that:</p><ol><li><p>In order to keep the decentralization feature of blockchain and to protect the security of your digital Tokens, TokenPocket offers decentralized service which is largely different from the banking and financial institutions. Users shall understand that TokenPocket DOES NOT provide the following services:</p><p>a) store Users’ Wallet Password (the password Users set when creating or importing wallets), Private Key, Mnemonic Words or Keystore;</p><p>b) restore Users’ Wallet Password, Private Key, Mnemonic Words or Keystore;</p><p>c) freeze the wallet;</p><p>d) report the loss of wallet;</p><p>e) restore the wallet;</p><p>f) rollback transactions.</p></li><li><p>Users shall take care of their mobile devices, back up the TokenPocket App, and back up the Wallet Password, Mnemonic Words, Private Key and Keystore by themselves. If your mobile device is lost, your TokenPocket App or your wallet is deleted and not backed up, your wallet is stolen or you forget your Wallet Password, Private Key, Mnemonic Words or Keystore, TokenPocket is not able to recover the wallet or restore Wallet Password, Private Key, Mnemonic Words or Keystore. Nor can TokenPocket cancel transactions for the mishandling of Users (such as typing in wrong addresses for transactions).</p></li><li><p>TokenPocket does not support all existing Tokens. Do not use TokenPocket to handle any non-supported Tokens.</p></li><li><p>TokenPocket is only a tool for Users to manage their Tokens and is not an exchange or a trading platform. For the purpose of this Agreement, the word “transactions” only means transferring and receiving Tokens, which is substantially different from transactions on the exchanges and trading platforms.</p></li><li><p>The DApps integrated into TokenPocket include those developed independently by TokenPocket and those developed by third parties. TokenPocket only acts as a blockchain browser for those third-party-developed DApps. Users shall, at their sole discretion, decide whether there would be any risks to accept the services provided by or to conduct transactions on the third-party-developed DApps.</p></li></ol><h3><a name='header-n74' class='md-header-anchor '></a>IV. Your Rights and Obligations</h3><ol><li><p>Create or Import Wallet</p><p>a) Create or import wallet: you are entitled to use TokenPocket on your mobile device to create and/or import wallet, set Wallet Password and use your wallet on TokenPocket to transfer and receive Tokens on blockchain.</p><p>b) Identification verification: Specific Users will be asked to complete identification verification before using TokenPocket to comply with related laws and regulations, according to the notification of TokenPocket. Specific Users may be asked to provide Personal Information including but not limited to name, identification card number, cell phone number, bank card information, etc., without which the Specific Users will not be able to use certain services and the Specific Users alone shall be responsible for the loss caused by their delay in completing the verification.</p><p>c) TokenPocket may develop different versions of TokenPocket for different terminal devices. You shall download and install applicable version. If you download and install TokenPocket or other application with the same name as “TokenPocket” from any unauthorized third party, TokenPocket cannot guarantee the normal operation or security of such application. Any loss caused by using such application shall be borne by you.</p><p>d) A previous version of TokenPocket may stop to operate after a new version is released. TokenPocket cannot guarantee the security, continuous operation or customer services for the previous version. Users shall download and use the latest version.</p></li><li><p>Use of TokenPocket</p><p>a) Users shall take care of their mobile devices, Wallet Password, Private Key, Mnemonic Words and Keystore by themselves. TokenPocket does not store or hold the above information for Users. You shall be responsible for any risks, liabilities, losses and expenses which result from frauds, you losing your mobile device, disclosing (whether actively or passively) or forgetting Wallet Password, Private Key, Mnemonic Words or Keystore, or your wallet being attacked.</p><p>b) Follow the Alert. You understand and agree to follow the Alert pushed by TokenPocket. You shall be responsible for any risks, liabilities, losses and expenses which result from your failure to comply with the Alert.</p><p>c) You understand that TokenPocket undertakes no responsibility to conduct due diligence on the services or transactions provided by third-party-developed DApps. You shall make investment decisions rationally and assume the risks by yourself.</p><p>d) Complete the identification verification. If TokenPocket reasonably deems your operation or transactions to be abnormal, or considers your identification to be doubtful, or TokenPocket considers it necessary to verify your identification documents or other necessary documents, you shall cooperate with TokenPocket and provide your valid identification documents or other necessary documents and complete the identification verification in time.</p><p>e) Transfer of Tokens</p><p>	i. You understand that you may be subject to daily limits on the amount and times of transfers according to your location, regulatory requirements, transferring purposes, risk control by TokenPocket, or identification verification.</p><p>	ii. You understand that blockchain operations are “irrevocable”. When you use TokenPocket to transfer Tokens, you shall be responsible for the consequences of your mishandling of the transfer (including but not limited to wrong address, problems of the node servers selected by you).</p><p>	iii. You understand that the following reasons may result in “transfer failed” or “mining overtime”</p><p>	insufficient balance in wallet;
+	insufficient gas for transaction;
+	blockchain’s failure to execute the code of smart contracts;
+	the transfer amount exceeds the transfer limits imposed by authorities, TokenPocket or laws or regulations;
+	technical failure of the network or equipment;
+	abandoned transactions result from blockchain network congestion or failure;
+	the wallet address of yours or your counterparty’s is identified as special addresses, such as high-risk address, exchange address, ICO address, Token address etc.
+	iv. You understand that TokenPocket is only a tool for transfer of Tokens. TokenPocket shall be deemed to have fulfilled its obligations once you have finished the transfer and shall not be held liable for any other disputes.</p><p>f) Compliance. You understand that you shall abide by , regulations and policies when you use TokenPocket or the DApps on TokenPocket.</p><p>g) Notifications. TokenPocket may send notifications to you by web announcements, e-mails, text messages, phone calls, Notification Centre information, popup tips or client-end notices (e.g., information about your transfer or suggestions on certain operations) which you shall be aware of timely.</p><p>h) Service fees and taxes.</p><p>i. TokenPocket does not charge you any service fees or handling fees for now. TokenPocket may reach an agreement with you or announce rules regarding service fees in the future;</p><p>ii. You need to pay gas when you transfer Tokens, the amount of which would be on your sole discretion and would be collected by certain blockchain system;</p><p>iii. You understand that under some specific circumstances, your transfer of Tokens may fail due to instable network, but you may still be charged gas by certain blockchain system;</p><p>iv. You shall bear all the applicable taxes and other expenses occurred due to your transactions on TokenPocket.</p></li></ol><h3><a name='header-n452' class='md-header-anchor '></a>V. Risks</h3><ol><li>You understand and acknowledge that the blockchain technology is a field of innovation where the laws and regulations are not fully established. You may be faced with material risks including instability of technology or failure of Tokens redemption. You also understand that Tokens have much higher volatility comparing to other financial assets. You shall make investment decisions and hold or dispose of the Tokens in a reasonable way and corresponding to your financial status and risk preferences. You also acknowledge that the market information is captured from exchanges by TokenPocket and may not represent the latest or the best quotation of each Token.</li><li>If you or your counterparty fails to comply with this Agreement or fails to follow the instructions, tips or rules on the website or on the page of the transaction or payment, TokenPocket does not guarantee successful transfer of the Tokens and TokenPocket shall not be held liable for any of the consequences of such failure. If you or your counterparty has already received the payment in TokenPocket wallet or third-party wallet, you understand that transactions on blockchain are irreversible and irrevocable. You and your counterparty shall assume the liabilities and consequences of your transactions.</li><li>When you use third-party-developed DApps integrated in TokenPocket, TokenPocket strongly suggest you read this Agreement and TokenPocket’s Alert carefully, get familiar with the counterparty and the product information and evaluate the risks before you make transactions on such DApps. You understand that such transactions and corresponding contractual relationship are between you and your counterparty. TokenPocket shall not be held liable for any risks, responsibilities, losses or expenses occurred due to such transactions.</li><li>It is your sole responsibility to make sure that your counterparty is a person with full capacity for civil acts and decide whether you shall transact with him/her.</li><li>You shall check the official blockchain system or other blockchain tools when you receive Alert such as “transaction failed” or “mining overtime” in order to avoid repetitive transfer. If you fail to follow this instruction, you shall bear the losses and expenses occurred due to such repetitive transfer.</li><li>You understand that after you create or import wallet on TokenPocket, your Keystore, Private Key and Mnemonic Words are only stored on your mobile device and will not be stored in TokenPocket or on the servers of TokenPocket. You may change another mobile device to use TokenPocket after you follow the instructions on TokenPocket to backup your wallet. If you lose your mobile device before you could write down or backup your Wallet Password, Private Key, Mnemonic Words or Keystore, you may lose your Tokens and TokenPocket is unable to restore them. If your Wallet Password, Private Key, Mnemonic Words or Keystore is disclosed or the device which stores or holds your Wallet Password, Private Key, Mnemonic Words or Keystore is hacked or attacked, you may lose your Tokens and TokenPocket is unable to restore them. You shall bear the foregoing losses on your own.</li><li>We suggest you backup your Wallet Password, Private Key, Mnemonic Words and Keystore when you create or import wallet by writing them down on papers or backup them in password management apps. Please do not use electronic methods such as screenshots, e-mails, note-taking apps in cell phones, text messages, Facebook Messanger to backup any of the above information.</li><li>In order to avoid potential security risks, we suggest you use TokenPocket in a secured network environment. Please do not use a jailbreak or Rooted mobile device.</li><li>Please be alert to frauds when you use TokenPocket. If you find any suspicious conducts, we encourage you to inform us immediately.</li></ol><h3><a name='header-n494' class='md-header-anchor '></a>VI. Change, Suspension, Termination of TokenPocket Service</h3><ol><li><p>You acknowledge and accept that TokenPocket may, at its sole discretion, provide only a part of services for the time being, suspend certain services or provide new services in the future. When we change our services, your continuous use of TokenPocket is deemed as your acceptance of this Agreement and revisions of this Agreement.</p></li><li><p>You shall first complete the Questionnaire and reach the score required by TokenPocket before you use TokenPocket. The Questionnaire will check whether you have sufficient knowledge of blockchain, so as to avoid to the extent possible that you will not mishandle TokenPocket or cause any risks to the security of your Tokens. If you fail to pass the Questionnaire, TokenPocket may refuse to provide all or part of the services on TokenPocket to you.</p></li><li><p>You understand that TokenPocket may suspend services under the following circumstances:</p><p>a) due to the maintenance, upgrading, failure of equipment and blockchain system and the interruption of communications etc., which lead to the suspension of the operation of TokenPocket;</p><p>b) due to force majeure events including but not limited to typhoon, earthquake, tsunami, flood, power outage, war, or terrorist attacks, or computer viruses, Trojan Horse, hacker attacks, system instability or government behaviors and other reasons, TokenPocket is unable to provide services or in TokenPocket’ reasonable opinion, continuous provision of services would result in significant risks;</p><p>c) due to other events which TokenPocket cannot control or reasonably predicate.</p></li><li><p>TokenPocket reserves the right to unilaterally suspend or terminate all or part of the function of TokenPocket under the following circumstances:</p><p>a) death of Users;</p><p>b) if you steal others’ wallets information or mobile devices;</p><p>c) if you provide false Personal Information on TokenPocket;</p><p>d) if you refuse to allow mandatory update of TokenPocket;</p><p>e) if you use TokenPocket to commit illegal or criminal activities;</p><p>f) if you hinder the normal use of TokenPocket by other Users;</p><p>g) if you pretend to be staff or management personnel of TokenPocket;</p><p>h) if you threaten the normal operation of TokenPocket computer system by attack, invasion, alternation or any other means;</p><p>i) if you use TokenPocket to send spams;</p><p>j) if you spread rumors which endanger the goodwill of TokenPocket and TokenPocket;</p><p>k) if you conduct any illegal activities, breach this Agreement etc. or other circumstances under which TokenPocket reasonably considers necessary to suspend services.</p></li><li><p>You are entitled to export your wallets within a reasonable amount of time if TokenPocket changes, suspends or terminates its services.</p></li></ol><h3><a name='header-n523' class='md-header-anchor '></a>VII. Your Representations and Warranties</h3><ol><li>You shall comply with: 1) all applicable laws and regulations of PRC and 2) all applicable laws and regulations of the country or area you reside in. You shall not use TokenPocket for any unlawful purposes or by any unlawful means.</li><li>You shall not use TokenPocket to commit any illegal or unlawful activities, including but not limited to:</li></ol><p>a) activities opposing the basic principles set forth in the PRC’s Constitution, endangering national security, disclosing state secrets, overturning the government or undermining national unity;
+b) any illegal conducts, such as money laundering, illegal fund raising etc.;
+c) accessing TokenPocket services, collecting or processing the content provided by TokenPocket, intervening or attempting to intervene any Users, by the employment of any automated programs, software, network engines, web crawlers, web analytics tools, data mining tools or similar tools etc.;
+d) providing gambling information or inducing others to engage in gambling;
+e) invading into others’ TokenPocket wallets to steal Tokens;
+f) engaging in any inaccurate or false transactions with the counterparty;
+g) committing any activities which harms or attempts to harm TokenPocket service system and data;
+h) other activities which TokenPocket has reason to believe are inappropriate.</p><ol start='3' ><li>You understand and accept that you shall be responsible for any violation of law (including but not limited to the regulations of the Customs and Tax) or for breach of this Agreement by you and shall indemnify TokenPocket against the losses, the third-party claims or administrative penalties against TokenPocket incurred by such violation or breach, including reasonable attorney’s fees.</li><li>You confirm that you will pay the service fees charged by TokenPocket in time (if applicable). TokenPocket reserves the right to suspend the services when the User fails to pay service fees (if applicable).</li></ol><h3><a name='header-n161' class='md-header-anchor '></a>VIII. Privacy Policy</h3><ol><li>Your privacy is of utmost importance for TokenPocket. Please refer to TokenPocket Privacy Policy as updated by us from time to time for relevant privacy protection policies.</li></ol><h3><a name='header-n165' class='md-header-anchor '></a>IX. Disclaimer and Limitation of Liability</h3><ol><li>TokenPocket only undertakes obligations expressly set forth in this Agreement.</li><li>YOU ACKNOWLEDGE AND ACCEPT THAT,TokenPocket IS PROVIDED ON AN “AS IS”, “AS AVAILABLE” AND “WITH ALL FAULTS” BASIS. TokenPocket shall not be held liable for malfunction of TokenPocket which results from the following reasons:</li></ol><p>a) system maintenance or upgrading of TokenPocket;
+b) force majeure, such as typhoon, earthquake, flood, lightning or terrorist attack etc.;
+c) malfunction of your mobile device hardware and software, and failure of telecommunication lines and power supply lines;
+d) your improper, unauthorized or unrecognized use of TokenPocket services;
+e) computer viruses, Trojan Horse, malicious program attacks, network congestion, system instability, system or equipment failure, telecommunication failure, power failure, banking issues, government acts etc.;
+f) any other reasons not imputed to TokenPocket.</p><ol start='3' ><li>TokenPocket shall not be held liable under the following circumstances:</li></ol><p>a) Users lose their mobile devices, delete TokenPocket applications and wallets without back-up, forget Wallet Passwords, Private Keys, Mnemonic Words, Keystores without back-up, which result in the loss of their Tokens;
+b) Users disclose their Wallet Passwords, Private Keys, Mnemonic Words, Keystores, or lend or transfer their TokenPocket wallets to others, or authorize others to use their mobile devices or TokenPocket wallets, or download TokenPocket applications through unofficial channels, or use TokenPocket applications by other insecure means, which result in the loss of their Tokens;
+c) Users mishandle TokenPocket (including but not limited to wrong address, failure of the node servers selected by you), which result in the loss of Tokens;
+d) Users are unfamiliar with the knowledge of blockchain and their mishandling of TokenPocket results in loss of their Tokens;
+e) TokenPocket is unable to copy accurate transaction records due to system delay or blockchain instability etc.;
+f) Users shall undertake the risks and consequences of their transactions on the third-party-developed DApps.</p><ol start='4' ><li>You understand that TokenPocket is only an management tool for Tokens which is incapable to control the quality, security and legitimacy of products and services provided by the third-party-developed DApps, or the authenticity and accuracy of their information and their capabilities to fulfill the obligations under the agreements with you. You, at your sole discretion, decide whether to transact on the third-party-developed DApps. It is the third-party-developed DApps, instead of TokenPocket, that transact with you. We kindly remind you to carefully review the authenticity, legitimacy, and effectiveness of related information provided by the third-party-developed DApps before you decide to use the DApps. In addition, you shall also assume all the risks arising from the transactions between you and any third party exchanges.</li><li>You acknowledge that TokenPocket may provide services to you and your counterparties simultaneously and you agree to waive any actual or potential conflicts of interests and will not claim against TokenPocket on such base or burden TokenPocket with more responsibilities or duty of care.</li><li>TokenPocket does not warrant that:</li></ol><p>a) services provided by TokenPocket would satisfy all your needs;
+b) all techniques, products, services, information or other materials from TokenPocket would meet your expectations;
+c) all the transaction information in digital tokens markets captured from the third party exchanges are prompt, accurate, complete, and reliable;
+d) your counterparties on TokenPocket will perform their obligations in the transaction agreements with you timely.</p><ol start='7' ><li>In any case, the total liability for TokenPocket under this Agreement shall not exceed the greater of:</li></ol><p>a) 0.1 Ether; </p><ol start='8' ><li>You are aware that TokenPocket is only a tool for Users to manage their Tokens and to display transaction information. TokenPocket does not provide legal, tax or investment advice. You shall seek advice from professional legal, tax, and investment advisors. In addition, TokenPocket shall not be liable for any investment loss, data loss etc. during your use of our service.</li><li>You understand that we may change our entry standards, limit the range and ways to provide services for specific Users etc. at any time in accordance with your laws and regulations.</li></ol><h3><a name='header-n614' class='md-header-anchor '></a>X. Entire Agreement</h3><ol><li>This Agreement incorporates TokenPocket Terms of Service, TokenPocket Privacy Policy, and other rules (including contents in the “Support” column) posted by TokenPocket from time to time.</li><li>If any provision of this Agreement is found by a court with competent jurisdiction to be invalid, the other provisions of this Agreement remain in full force and effect.</li><li>This English version and other translated version of this Agreement (if any) are provided for the convenience of Users, and are not intended to revise the Chinese version of this Agreement. If there is any discrepancy between the Chinese version and non-Chinese version of this Agreement, the Chinese version shall prevail.</li></ol><h3><a name='header-n202' class='md-header-anchor '></a>XI. Intellectual Property Rights Protection</h3><ol><li>TokenPocket is an application developed and owned by TokenPocket. The intellectual property rights of any contents displayed in TokenPocket (including this Agreement, announcements, articles, videos, audios, images, archives, information, materials, trademarks or logos) are owned by TokenPocket or the third party licensors. Users can only use the TokenPocket applications and its contents for the purpose of holding and managing their Tokens. In particular, without prior written consent from TokenPocket or the third party licensors, no one shall use, modify, decompile, reproduce, publicly disseminate, alter, distribute, issue or publicly publish the abovementioned applications and contents.</li></ol><h3><a name='header-n639' class='md-header-anchor '></a>XII. Governing Law and Dispute Resolution</h3><ol><li>The validity, interpretation, alternation, enforcement, dispute resolution of this Agreement and its revised versions shall be governed and construed in accordance with the laws of Your Area. Where there is no applicable law, this Agreement shall be interpreted by applicable commercial and/or industrial practices.</li><li>If any dispute or claim in connection with this Agreement arises between you and TokenPocket, the parties shall first attempt to resolve the dispute or claim through amicable negotiations in good faith. If the parties cannot reach an agreement, either party may sue the other party at the competent court where TokenPocket is located.</li></ol><h3><a name='header-n652' class='md-header-anchor '></a>XIII. Miscellaneous</h3><ol><li>You shall fully understand and conform to the laws, regulations and rules in your jurisdictions which are relevant to use of TokenPocket services.</li><li>During your use of TokenPocket services, if you come across any problems, you can contact us through the submission of your feedbacks on TokenPocket.</li><li>This Agreement is accessible for all Users on TokenPocket. We encourage you to read this Agreement each time you log onto TokenPocket.</li><li>This Agreement shall become effective on Dicember 1, 2017.</li></ol><p>As for any issues not covered in this Agreement, you shall comply with the announcements and relevant rules as updated by TokenPocket from time to time.</p><p>TokenPocket inc.</p></div>
+</body>
+</html>

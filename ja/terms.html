@@ -1,0 +1,551 @@
+<!doctype html>
+<html style='font-size:13px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>terms.md</title><link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}#write, body { height: auto; }
+#write, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write ol, #write p, #write ul { position: relative; }
+#write, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write, pre { white-space: pre-wrap; }
+.CodeMirror, .md-fences, table { text-align: left; }
+.md-reset, a:active, a:hover { outline: 0px; }
+.md-reset, .md-toc-item a { text-decoration: none; }
+.MathJax_SVG, .md-reset { float: none; direction: ltr; }
+:root { --bg-color: #ffffff; --text-color: #333333; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.in-text-selection, ::selection { background-color: rgb(181, 214, 252); text-shadow: none; background-position: initial initial; background-repeat: initial initial; }
+#write { margin: 0px auto; word-break: normal; word-wrap: break-word; padding-bottom: 70px; overflow-x: visible; }
+.first-line-indent #write p .md-line { text-indent: 0px; }
+.first-line-indent #write li, .first-line-indent #write p, .first-line-indent #write p .md-line:first-child { text-indent: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write > blockquote:first-child, #write > div:first-child, #write > ol:first-child, #write > p:first-child, #write > pre:first-child, #write > table:first-child, #write > ul:first-child { margin-top: 30px; }
+#write li > table:first-child { margin-top: -20px; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+p { -webkit-margin-before: 1rem; -webkit-margin-after: 1rem; -webkit-margin-start: 0px; -webkit-margin-end: 0px; }
+.mathjax-block { margin-top: 0px; margin-bottom: 0px; -webkit-margin-before: 0px; -webkit-margin-after: 0px; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+#write > figure:first-child { margin-top: 16px; }
+figure { overflow-x: auto; margin: -8px 0px 0px -8px; max-width: calc(100% + 16px); padding: 8px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; }
+.CodeMirror-line, .md-fences { break-inside: avoid; }
+table.md-table td { min-width: 80px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; margin-right: 4px; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+.md-fences { font-size: 0.9rem; display: block; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+.md-fences .CodeMirror.CodeMirror-wrap { top: -1.6em; margin-bottom: -1.6em; }
+.md-fences.mock-cm { white-space: pre-wrap; }
+.show-fences-line-number .md-fences { padding-left: 0px; }
+.show-fences-line-number .md-fences.mock-cm { padding-left: 40px; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; vertical-align: top; text-shadow: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; background-position: 0px 0px; background-repeat: initial initial; }
+.md-toc-inner, a img, img a { cursor: pointer; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: nowrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; }
+  #write { margin-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  h1, h2, h3, h4, h5, h6 { break-after: avoid-page; orphans: 2; }
+  p { orphans: 4; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 1cm; padding-right: 1cm; padding-bottom: 0px; break-after: avoid-page; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > img:only-child { display: block; margin: auto; }
+.md-line > .md-image:only-child, p > .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
+.mathjax-block:not(:empty)::after, .md-toc-content::after, .md-toc::after { display: none; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.mathjax-block { white-space: pre; overflow: hidden; width: 100%; }
+p + .mathjax-block { margin-top: -1.143rem; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.MathJax_SVG, .mathjax-block .MathJax_SVG_Display { text-indent: 0px; max-width: none; max-height: none; min-height: 0px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-inner:hover { }
+.md-toc-inner { display: inline-block; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: '.'; }
+code, pre, tt { font-family: var(--monospace); }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.mathjax-block .MathJax_SVG_Display { text-align: center; margin: 1em 0px; position: relative; min-width: 100%; width: auto; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: monospace; }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; min-width: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.os-windows.monocolor-emoji .md-emoji { font-family: 'Segoe UI Symbol', sans-serif; }
+.md-diagram-panel > svg, [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Regular'),url('file:///Users/01008677/Library/Application%20Support/abnerworks.Typora/themes/github/400.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Open Sans Italic'),url('file:///Users/01008677/Library/Application%20Support/abnerworks.Typora/themes/github/400i.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Open Sans Bold'),url('file:///Users/01008677/Library/Application%20Support/abnerworks.Typora/themes/github/700.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: bold;
+    src: local('Open Sans Bold Italic'),url('file:///Users/01008677/Library/Application%20Support/abnerworks.Typora/themes/github/700i.woff') format('woff')
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write{
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 20px 30px 40px 30px;
+	padding-top: 20px;
+    padding-bottom: 100px;
+}
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+body > *:first-child {
+    margin-top: 0 !important;
+}
+body > *:last-child {
+    margin-bottom: 0 !important;
+}
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    /*background: url("file:///Users/01008677/Library/Application%20Support/images/modules/styleguide/para.png") no-repeat 10px center;*/
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 4px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+    border-bottom: 1px solid #ddd;
+}
+
+body > h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h1:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h3:first-child,
+body > h4:first-child,
+body > h5:first-child,
+body > h6:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+a:first-child h1,
+a:first-child h2,
+a:first-child h3,
+a:first-child h4,
+a:first-child h5,
+a:first-child h6 {
+    margin-top: 0;
+    padding-top: 0;
+}
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p {
+    margin-top: 0;
+}
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dddddd;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #cccccc;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    border-bottom: 0;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-gutters {
+    border-right: 1px solid #ddd;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0.2em 1em;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media screen and (min-width: 914px) {
+    /*body {
+        width: 854px;
+        margin: 0 auto;
+    }*/
+}
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag{
+	color: inherit;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#md-notification:before {
+    top: 10px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+
+ .typora-export p {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><h1><a name='header-n0' class='md-header-anchor '></a>トークンポケット利用規約</h1><p>ユーザーの皆様</p><p>TokenPocketをご利用いただきありがとうございます。</p><p>この利用規約（以下「規約、または本規約」）は、お客様（「お客様」または「ユーザー」）とトークンポケット株式会社.（以下「当社」）との間で行われ、お客様と当社の間で法的拘束力を持ちます。</p><p>TokenPocketを使用する前に、本規約および本規約に記載されているその他の文書の全内容を慎重にお読みください。特に、「責任の免責と制限」のセクションと太字で表示されているその他のセクションを注意深くお読みください。ユーザーは規約を理解し、ユーザー自身でTokenPocketを使用するリスクを認識した上でご利用いただく必要があります。</p><h3><a name='header-n10' class='md-header-anchor '></a>第一条.本契約の確認と受諾</h3><ol start='' ><li>規約およびその他の関連文書は、当社が独自に開発および所有するTokenPocket（および第三者が開発したDAppsを除く）に適用されるTokenPocketおよび分散アプリケーション（「DApps」）に適用されます。</li><li>TokenPocketをダウンロードしてウォレットの作成またはインポートを開始すると、当規約を読んで受諾したものとみなされ、規約は有効となり、すぐにユーザーと当社の両方に法的拘束力が発生します。</li><li>当社は、独自の裁量により、いつでも当規約を変更することができます。変更された規約は、TokenPocketに掲示されると自動的に有効となり、別途通知されることはありません。変更に同意しない場合は、直ちにTokenPocketの使用を中止するものとします。本契約の変更後にお客様がTokenPocketを使用することは、本契約の変更を受けたことを意味します。</li></ol><p>あなたが18歳未満の場合は、両親または保護者の指導のもとにTokenPocketを使用してください。</p><h3><a name='header-n23' class='md-header-anchor '></a>第ニ条.定義</h3><ol start='' ><li>TokenPocket：Ethereum（およびTokenPocketが将来サポートする可能性のある他のブロックチェーンシステム）および、ブロックチェーンシステムを使用する場合のユーザーの便宜のために開発された、その他のサポートツールをベースに当社によって開発されたブロックチェーンウォレットを意味します。</li><li>ユーザー：当社の提供するサービスであるTokenPocketの利用者を意味します。</li><li>ウォレットの作成またはインポート：規約に同意した後、TokenPocketを使用してウォレットを作成またはインポートすることを意味します。</li></ol><ol start='4' ><li>ウォレットパスワード：ウォレットを作成するときに設定したパスワードを意味します。ウォレットパスワードは、秘密鍵の暗号化と保護に使用されます。分散アプリケーションとしてのTokenPocketは、お客様のウォレットパスワードを当社のサーバーに保存したり、お客様のウォレットパスワードをお客様のモバイルデバイスに保存することはありません。ウォレットパスワードを紛失または忘れた場合は、秘密鍵またはニーモニックワードでウォレットパスワードをリセットする必要があります。</li><li>アラート：TokenPocketの操作インタフェースに表示されるメッセージで、後続の操作でユーザーに警告や提案を提供します。</li><li>秘密鍵：256個のランダムビットからなる。秘密鍵は、ユーザーがトークンを保持して使用するためのコアとなります。</li><li>公開鍵：暗号に基づいて秘密鍵から導出され、ウォレットアドレスを生成するために使用されます。ウォレットアドレスは、トークンの受信用のパブリックアドレスです。</li><li>ニーモニックワード：ランダムに生成される12語（または15/18/21/24）の単語で構成され、ブロックチェーンの業界標準であるBIP39に基づいています。</li></ol><ol start='9' ><li>キーストア：ユーザーのウォレットパスワードで暗号化され保護されたファイル形式の秘密キーまたはニーモニックワードを意味します。キーストアはモバイルデバイスにのみ保存され、当社のサーバーとは一切同期されません。</li><li>トークン（Tokens）：TokenPocketが現在サポートしているトークンを指し、ETHや、ERC20に準拠したOMG,DGDなどが該当します。</li><li>個人情報：氏名、生年月日、その他の情報を含むが、これらに限定されない、単独で、または他の情報と組み合わせて自然人を識別することができる、住所、電話番号、銀行カード番号、電子メールアドレス、ウォレットアドレス、モバイルデバイス情報などが該当します。ウォレットパスワード、秘密鍵、ニーモニックワード、キーストアは除きます。</li><li>取引：TokenPocketにおける取引とは、取引所や取引プラットフォーム上の取引とは実質的に異なるトークンの譲渡と受け取りのみを意味します。</li></ol><h3><a name='header-n63' class='md-header-anchor '></a>第三条.サービス</h3><ol start='' ><li><p>サービスの利用</p><p>ウォレットを作成またはインポートします。 TokenPocketを使用して新しいウォレットを作成したり、他のウォレットアプリケーションによって生成されたウォレットをインポートすることができます。 TokenPocketでサポートされているウォレットのみをインポートすることができます。</p></li><li><p>トークンの譲渡と受け取り</p><p>TokenPocketの転送機能と受信機能を使用してトークンの譲渡と受け取りの管理をすることができます。つまり、秘密鍵で署名し、ブロックチェーン上でトランザクションを実行することができます。トークンの譲渡とは、転送者がトークンを被転送者のブロックチェーンアドレスに転送することを意味します。トークンの転送は、Ethreumをはじめとしたブロックチェーンシステム（TokenPocketではなく）で行われます。</p></li><li><p>トークンの管理</p><p>TokenPocketでサポートされているトークン（ETHを除く）の追加、管理、削除には TokenPocketを使用することができます。</p></li><li><p>トークン価格の取得</p><p>TokenPocketでサポートされているトークンに関して、第三者によって開発された外部サイトによって金額が取得可能なトークンについては、価格を取得できます。ただし、トークンの価格については第三者によって開発された外部サイトによるものとし、当社は一切の責任を負わないものとします。</p></li><li><p>DAppsの参照
+ユーザーは TokenPocketを使用して、DAppsが提供するサービス（当社によって開発されたDAppsおよび第三者によって開発されたDAppsを含む）を使用することができます。</p></li><li><p>トランザクション</p><p>ブロックチェーンシステムからトランザクションの全部または一部をコピーします。</p></li><li><p>サービスの一時停止</p><p>ブロックチェーン技術に基づく取引は取り消すことができないため、取引を取り消すことはできません。ただし、特定の状況では、特定のユーザーが使用するTokenPocketの機能を一時停止または制限することがあります。</p></li><li><p>当社が提供する可能性のある他サービス</p><p>当社は、TokenPocket上で、1項～7項までに該当しないサービスを提供できるものとします。</p></li><li><p>TokenPocketを使用するユーザーは、次のことを理解する必要があります。</p><ol start='' ><li><p>ブロックチェーンの分散化機能を維持し、デジタルトークンのセキュリティを保護するため、当社は既存の銀行や金融機関とは大きく異なる、分散サービスを提供します。ユーザーは当社が以下のサービスを提供していないことを理解するものとします。</p><p>a）ユーザーのウォレット・パスワード（ウォレットの作成時またはインポート時にユーザーが設定するパスワード）、秘密鍵、ニーモニック・ワードまたはキーストアを格納する。</p><p>b）ユーザーのウォレットパスワード、秘密鍵、ニーモニックワードまたはキーストアを復元する。</p><p>c）ウォレットを凍結する。</p><p>d）ウォレットの紛失を報告する。</p><p>e）ウォレットを復元する。</p><p>f）ロールバック取引を行う。</p></li><li><p>ユーザーは、モバイルデバイスを利用する際、TokenPocketをバックアップし、ウォレットパスワード、ニーモニックワード、プライベートキー、およびキーストアを単独でバックアップする必要があります。TokenPocketまたはウォレットが削除した場合や、モバイルデバイスを紛失した場合、バックアップされていない場合、ウォレットが盗まれた場合や、ウォレットパスワード、秘密鍵、ニーモニックワードまたはキーストアが忘れられた場合、もしくは他の全てのTokenPocketが利用できなくなった場合に、当社はウォレットを復元したり、パスワード、秘密鍵、ニーモニックワードまたはキーストア。 また、当社は、ユーザーの誤った取り扱い（トランザクションの間違ったアドレスの入力など）のための取引をキャンセルすることもできません。</p></li></ol></li><li><p>TokenPocketは既存のすべてのトークンをサポートしていません。サポートされていないトークンを処理するためにTokenPocketを使用しないでください。</p></li><li><p>TokenPocketは、ユーザがトークンを管理するためのツールに過ぎず、取引所や取引プラットフォームではありません。規約の目的上、「取引」という用語は、取引所や取引プラットフォーム上の取引とは実質的に異なるトークンの譲渡と受け取りのみを意味します。</p></li><li><p>TokenPocketに統合されたDAppsには、当社によって独自に開発されたものと第三者によって開発されたものがあります。TokenPocketは、サードパーティが開発したDAppsのブロックチェーンブラウザとしてのみ機能します。ユーザーは、第三者によって開発されたDAppsによって提供されたサービスを受け入れるか、または第三者が開発したDApps上で取引を行うためのリスクがあるかどうかを独自の裁量で決定するものとします。</p></li></ol><h3><a name='header-n135' class='md-header-anchor '></a>第四条.ユーザーの権利と義務</h3><ol start='' ><li><p>ウォレットの作成またはインポート</p><p>a）モバイルデバイス上でTokenPocketを使用してウォレットを作成および/またはインポート、ウォレットパスワードを設定し、TokenPocketでウォレットを使用してブロックチェーン上でトークンを送受信することができます。</p><p>b）当社は異なる端末デバイス用に異なるバージョンのTokenPocketを開発する可能性があります。該当するバージョンをダウンロードしてインストールします。不正な第三者から “TokenPocket&quot;と同じ名前の他のアプリケーションをダウンロードしてインストールする場合、当社はそのようなアプリケーションの通常の動作またはセキュリティを保証することはできません。そのようなアプリケーションを使用することによって生じた損失は、ユーザーが負担します。</p><p>c）TokenPocketの以前のバージョンは、新しいバージョンがリリースされた後に動作を停止することがあります。 当社は、以前のバージョンのセキュリティ、継続的な運用、または顧客サービスを保証することはできません。ユーザーは、最新バージョンをダウンロードして使用するものとします。</p></li><li><p>TokenPocketの使用
+a）ユーザーは、モバイルデバイス、ウォレットパスワード、秘密鍵、ニーモニックワード、およびキーストアを単独で処理する必要があります。 Co当社は、上記の情報を保存または保持しません。ユーザーは、モバイルデバイスを紛失したり、（受動的でも能動的にかかわらず）ウォレットパスワード、秘密鍵、ニーモニックワードまたはキーストアを紛失した、またはユーザーのウォレットが攻撃された場合のリスク、負債、損失および費用について責任を負うものとします。</p><p>b）ユーザーは、TokenPocketによってプッシュされたアラートに従うことを理解し、同意します。ユーザーは、アラートに従わなかったことに起因するリスク、負債、損失および費用について責任を負うものとします。</p><p>c）当社は、第三者によって開発されたDAppsによって提供されるサービスまたはトランザクションのデューデリジェンスを行う責任を負いません。ユーザーは合理的に投資判断を下し、自らリスクを引き受けるものとします。</p><p>d)当社がユーザーの操作や取引が異常であると判断した場合、またはユーザーが疑わしいとみなした場合や、身分証明書またはその他の必要書類を確認する必要があるとみなした場合は、ユーザーは当社に協力して有効な身分証明書またはその他の必要書類時間内に身元確認を完了させる必要があります。</p><p>e）トークンの転送</p><p>​	i.ユーザーはブロックチェーン操作は「取消不能」であることを理解し、トークンを転送するためにTokenPocketを使用する場合は、誤ったアドレス、選択したノードサーバーの問題など、転送の誤った取り扱いの結果について責任を負うものとします。
+	ii.ユーザーは、以下の理由により、「転送に失敗」または「マイニングが未完了」となることがあります。</p><p>​	- ウォレットの残高不足。</p><p>​	- 取引のための不十分なガス(Gas)</p><p>​	- ブロックチェーンがスマート契約のコードを実行できなかった。</p><p>​	- ネットワークまたは機器の技術的な故障。</p><p>​	- 放棄されたトランザクションは、ブロックチェーンネットワークの輻輳または障害に起因します。</p><p>​	- ユーザーまたはユーザーのカウンターパーティーのウォレット・アドレスは、ハイリスク・アドレス、エクスチェンジ・アドレス、ICOアドレス、トークン・アドレスなどの特別なアドレスとして識別されます。</p><p>​	iii. TokenPocketはトークンの転送のためのツールにすぎません。 当社は、転送を完了(もしくは未完了）したことによって義務を履行したものとみなされ、その他の紛争や係争について責任を負いません。</p><p>f）コンプライアンス</p><p>ユーザーは、TokenPocketまたはTokenPocketでDAppsを使用する際には、お住いのエリアの法律、規則、ポリシーを遵守する必要があります。</p><p>g）通知</p><p>TokenPocketは、ウェブアナウンス、電子メール、テキストメッセージ、電話、通知センター情報、ポップアップヒント、またはクライアントエンド通知（例えば、転送に関する情報または特定の操作に関する提案）によって通知を送信することがあります。</p><p>h）サービス料、手数料</p><p>​	i.TokenPocketは、当面サービス料金または手数料をお客様に請求しません。 TokenPocketは、ユーザーと契約を結ぶか、将来、サービス料金に関する規定を発表することがあります。</p><p>​	ii. トークンを転送するときにガスを支払う必要があります。トークンの金額は独自の裁量であり、特定のブロックチェーンシステムによって回収されます。</p><p>​	iii. 特定の状況下では、不安定なネットワークのためにトークンの転送に失敗する可能性があります。特定のブロックチェーンシステムによっても料金が請求されることがあります。</p><p>​	iv. お客様は、TokenPocketにおける取引のために発生したすべての税金およびその他の費用を負担します。</p></li></ol><h3><a name='header-n193' class='md-header-anchor '></a>第五条.リスク</h3><ol start='' ><li>ユーザーはブロックチェーン技術は、法律や規制が完全に確立されていないイノベーションの分野であることを理解し、認識する必要があります。技術の不安定さやトークンの償還の失敗などにより、重大なリスクに直面する可能性があります。また、トークンは他の金融資産と比べてはるかに高いボラティリティを持っていることも理解する必要があります。ユーザーは自ら投資判断を下し、トークンを合理的な方法で保有または処分し、財務ステータスおよびリスクに対応させるものとします。また、マーケット情報や価格情報は、第三者から取得されたものであり、各トークンの最新または最高のを価格を表すものではないこと、また当社に一切の責任がないことを認識する必要があります。</li><li>ユーザー、カウンターパーティが当規約を遵守しなかった場合、またはウェブサイトまたはトランザクションまたは支払いのページの指示、ヒントまたは規則に従わなかった場合、TokenPocketはトークンの正常な転送を保証せず、TokenPocketはそのような失敗の結果のいずれかに対して責任を負いません。ユーザーまたはカウンターパーティーがすでにTokenPocketのウォレットまたはサードパーティウォレットで支払いを受け取っている場合、ブロックチェーン上のトランザクションは元に戻せず、取消不能であることを理解する必要があります。ユーザーは各自の取引の負債と結果を引き受けるものとします。</li><li>TokenPocketに統合されたサードパーティが開発したDAppsを使用する場合、当社は当規約およびTokenPocketのアラートを注意深く読み、カウンターパーティと製品情報に精通し、リスクを評価することを強く推奨します。ユーザーは、取引とそれに対応する契約上の関係は、ユーザーとそのカウンターパーティとの間にのみあることを理解する必要があります。 TokenPocketは、そのような取引に起因するリスク、責任、損失または経費について、一切の責任を負わないものとします。</li><li>取引相手が民事行為のための完全な能力を持つ人物であることを確認し、取引するかどうかを決定するの唯一の責任についてユーザーが負うものとします。</li><li>「取引失敗」や「マイニング未完了」などのアラートを受け取ったときは、公式のブロックチェーンシステムやその他のブロックチェーンツールをチェックしなければなりません。また、そのような転送処理に起因する損失と費用はユーザーが負担するものとします。</li></ol><ol start='6' ><li>TokenPocketでウォレットを作成またはインポートすると、キーストア、秘密鍵、ニーモニックの単語は携帯端末にのみ保存され、TokenPocketまたは当社のサーバーには保存されません。 TokenPocketの指示に従ってウォレットをバックアップした場合は、他のモバイルデバイスに変更してTokenPocketを使用することができます。ウォレットパスワード、秘密鍵、ニーモニックワードまたはキーストアを書き留めたりバックアップする前にモバイルデバイスを紛失した場合、トークンが失われる可能性があり、当社は復元できません。ウォレットパスワード、秘密鍵、ニーモニックワードまたはキーストアが公開されている場合、またはウォレットパスワード、秘密鍵、ニーモニックワードまたはキーストアを保管または保持するデバイスがハッキングまたは攻撃されている場合、トークンを失う可能性があり、当社は復元できません。ユーザーは上記の損失をユーザー自身で負担するものとします。</li><li>ウォレットのパスワード、秘密鍵、ニーモニックワード、キーストアは、ウォレットを作成またはインポートする際に、書面で書き留めたり、パスワード管理アプリケーションにバックアップしてバックアップすることを強く推奨します。上記の情報のいずれかをバックアップするために、スクリーンショット、電子メール、メモ帳アプリケーション、携帯電話、テキストメッセージ、Lineなどの電子的方法を使用しないでください。</li><li>潜在的なセキュリティ上のリスクを回避するために、安全なネットワーク環境でTokenPocketを使用することをお勧めします。ジェイルブレイクまたはルーテッドモバイルデバイスを使用しないでください。</li><li>TokenPocketを使用するときは、詐欺に注意してください。不審な行動を見つけた場合は、すぐにお知らせください。</li></ol><h3><a name='header-n223' class='md-header-anchor '></a>第６条. 当社サービスの変更、停止、終了</h3><ol start='' ><li><p>ユーザーは、当社が独自の裁量で、当面サービスの一部のみを提供したり、特定のサービスを一時停止したり、将来新しいサービスを提供することができることを認め、承諾します。当社がサービスを変更する場合、TokenPocketの継続的な使用は、本契約および本契約の改定の受諾とみなされます。</p></li><li><p>当社は、以下の状況下でサービスを一時停止することができ、当該停止または、中断により会員に生じた損害には一切責任を負いません。</p><p>a) TokenPocketの運営を停止させる保守、アップグレード、機器およびブロックチェーンシステムの障害、通信の中断などが発生した場合</p><p>b) 台風、地震、津波、洪水、停電、戦争、テロリスト、コンピュータウイルス、トロイの木馬、ハッカーの攻撃、システムの不安定さ、政府の行為などを含む不可抗力の事由により、当社はサービスを提供することができない、もしくは当社の合理的な見解で、サービスの継続的な提供が重大なリスクにつながる場合</p><p>c) 法令またはこれに基づく措置により本サービスの提供ができなくなった場合</p><p>d) 運用上または技術上当社が本サービスの一時的な中断を必要と判断した場合</p><p>e 当社が制御できない、または合理的に述語化することができない他の事象が起きた場合</p></li><li><p>当社は、以下の状況下でTokenPocketの機能の全部または一部を一方的に停止または終了する権利を保持します。
+a）ユーザーの死亡。</p><p>b）ユーザーが他人の財布の情報またはモバイルデバイスを盗んだ場合。</p><p>c）TokenPocketに虚偽の個人情報を提供したり、アンケートで不正行為を行った場合。</p><p>d）TokenPocketの強制アップデートを拒否した場合。</p><p>e）TokenPocketを使用して違法または犯罪行為を行った場合。</p><p>f）他のユーザーがTokenPocketを通常使用するのを妨げる場合。</p><p>g）当社の職員または管理職員であるとふりをした場合。</p><p>h）攻撃、侵略、交替またはその他の手段によって当社コンピュータシステムの通常の操作を脅かす場合。</p><p>i）TokenPocketを使用してスパムを送信する場合。</p><p>j）当社とTokenPocketを危険にさらす噂を広げた場合。</p><p>k）違法行為を行った場合、当規約または合理的にサービスの中断に必要と判断する場合。</p><p>l)反社会的勢力等（暴力団、暴力団員、暴力団準構成員、暴力団関係企業、総会屋、社会運動等標榜ゴロまたは特殊知能暴力集団等、その他これに準ずる者を意味します。以下同じ。）である場合。</p></li><li><p>当社がサービスを変更、中止または終了した場合、ユーザーは適切な期間内にウォレットをエクスポートする権利を保持します。</p></li></ol><h3><a name='header-n255' class='md-header-anchor '></a>第七条.表明と保証</h3><ol start='' ><li><p>ユーザーは、お客様が所在する国または地域の適用されるすべての法律および規制に従うものとします。TokenPocketを違法な目的または違法な手段で使用してはなりません。</p></li><li><p>TokenPocketは、Ethereum（およびTokenPocketが将来サポートする可能性のある他のブロックチェーンシステム）および、ブロックチェーンシステムを使用するユーザーの便宜のために開発された、その他のサポートツールをベースに当社によって開発されたブロックチェーンウォレットであり、ユーザーがブロックチェーンシステムを利用して、トークンを転送/管理し、取引情報を表示するためのツールにすぎず、「資金決済に関する法律」第７項の「仮想通貨交換業」に該当するサービスは提供しません。</p></li><li><p>TokenPocketを使用して、以下を含む、以下に限定されない違法または不法行為を行うことはできません。</p><p>a）マネーロンダリング、違法資金調達などのあらゆる違法行為。</p><p>b）当社サービスにアクセスし、提供されたコンテンツを収集または処理し、介入またはユーザーの介入を試み、自動プログラム、ソフトウェア、ネットワークエンジン、Webクローラー、Web解析ツール、データマイニングツールまたは同様のツールを利用すること。</p><p>c）ギャンブルに関する情報を提供すること、または他人にギャンブルを行うことを誘発すること。</p><p>d）トークンを盗むために他人のTokenPocketウォレットに侵入すること。</p><p>e）カウンターパーティーとの不正確または間違った取引を行うこと。</p><p>g）TokenPocketのサービスシステムとデータに害を及ぼしたり、損害を与えようとする活動を行う。</p><p>h）当社が不適切と考える理由があるその他の活動。</p></li><li><p>ユーザーは、法律の違反（税関の規則を含むがこれに限定されない）またはユーザーによる当規約の違反について責任を負うことを理解し、同意するものとし、損害に対して当社を補償し、第三者合理的な弁護士費用を含む、そのような違反または違反によって被った当社に対すしての保証または罰金を支払う義務を追います。</p></li><li><p>当社が課金したサービス料を支払います。 当社は、ユーザーがサービス料を支払うことができない場合、サービスを一時停止する権利を保持します。</p></li><li><p>ユーザーは、過去および現在、自らが以下のいずれにも該当しないことを表明し、かつ将来にわたっても該当しないことを確約します。</p><p>a)反社会的勢力等（暴力団、暴力団員、暴力団準構成員、暴力団関係企業、総会屋、社会運動等標榜ゴロまたは特殊知能暴力集団等、その他これに準ずる者を意味します。以下同じ。）である</p><p>b)資金提供その他を通じて反社会的勢力等の維持、運営もしくは経営に協力もしくは関与する等反社会的勢力等との何らかの交流もしくは関与を行っている</p></li></ol><h3><a name='header-n293' class='md-header-anchor '></a>第八条.個人情報保護方針</h3><ol start='' ><li>ユーザーのプライバシーは当社にとって最も重要です。関連するプライバシー保護ポリシーについては、随時当社に更新された「TokenPocketプライバシーポリシー」を参照してください。</li></ol><h3><a name='header-n298' class='md-header-anchor '></a>第九条.責任の免責と制限</h3><ol start='' ><li><p>当社は、当規約に明示的に定められた義務のみを負う。</p></li><li><p>当社は、以下の理由から生じるTokenPocketの不具合に対して、責任を負いません。</p><p>a）TokenPocketのシステムメンテナンスまたはアップグレード。</p><p>b）台風、地震、洪水、落雷またはテロ攻撃などの不可抗力。</p><p>c）モバイルデバイスのハードウェアおよびソフトウェアの誤動作、通信回線および電源供給線の障害。</p><p>d）当社サービスの不適切な、許可されていない、または認識されていない使用。</p><p>e）コンピュータウイルス、トロイの木馬、悪意のあるプログラムの攻撃、ネットワークの輻輳、システムの不安定性、システムまたは装置の障害、電気通信の障害、停電、銀行の問題、政府の行為など。</p><p>f）TokenPocketに帰属しないその他の理由。</p></li><li><p>当社は、以下の場合には一切の責任を負いません。
+a）ユーザーがモバイルデバイスを紛失し、バックアップせずにTokenPocketアプリケーションやウォレットを削除し、ウォレットパスワード、秘密キー、ニーモニックワード、バックアップのないキーストアを忘れてトークンを失う。</p><p>b）ユーザーが自分のウォレットパスワード、秘密キー、ニーモニックワード、キーストアを公開するか、自分のTokenPocketウォレットを他人に貸し出したり、他の人にモバイルデバイスやTokenPocketを使用する権限を与えたり、非公式チャンネルを通じてTokenPocketアプリケーションをダウンロードしたり、TokenPocketアプリケーションを他の安全でない手段によって利用して、トークンを失う。</p><p>c）ユーザーがTokenPocketの利用を間違え（誤ったアドレス、ユーザーが選択したノードサーバーの障害を含むがこれに限定されない）、トークンが失われる。</p><p>d）ユーザーがブロックチェーンの知識に慣れておらず、TokenPocketを誤って操作し、トークンを失う。</p><p>e）TokenPocketは、システムの遅延やブロックチェーンの不安定性などにより、正確な取引記録をコピーすることができませんが、それに起因する事象によって、トークンを失う。</p><p>f) ユーザーは、第三者によって開発されたDAppsに対して、取引のリスクおよび結果を引き受けるものとします。</p></li><li><p>TokenPocketは、サードパーティが開発したDAppによって提供される製品やサービスの品質、セキュリティ、正当性、または情報の信頼性と正確性、およびその能力を制御することができない、トークンの管理ツールであることを理解する必要があります。ユーザーは、独自の裁量で、サードパーティが開発したDAppsで取引するかどうかを決定します。 TokenPocketではなく、サードパーティが開発したDAppsが、ユーザーと取引します。 DAppsを使用することを決定する前に、サードパーティが開発したDAppsが提供する関連情報の信頼性、正当性、有効性を慎重に検討する必要があります。さらに、ユーザーは、ユーザーと第三者の取引所との間の取引に起因するすべてのリスクを負うものとします。</p></li><li><p>ユーザーは、TokenPocketが、ユーザーとユーザーのカウンターパーティーに同時にサービスを提供する可能性があり、実際のまたは潜在的な利益相反を放棄することに同意します。</p></li><li><p>当社は以下のことを保証しません。</p><p>a）当社が提供するサービスは、お客様のあらゆるニーズを満たすこと。</p><p>b）当社のすべての技術、製品、サービス、情報、またはその他の資料は、お客様の期待に応えること。</p><p>c）第三者取引所（CoinMarcketCap.comなど)から取り込まれたデジタルトークン市場のすべての取引情報や価格情報が迅速、正確、完全、信頼できるものであること。</p></li><li><p>TokenPocketは、ブロックチェーンシステムを利用し、ユーザーがトークンを転送/管理し、取引情報を表示するためのツールにすぎないことにご留意ください。 当社は、法律、税務または投資のアドバイスを提供していません。そのような場合、専門的な法律、税務、投資顧問の助言を求めなければなりません。さらに、当社は、ユーザーのサービスの使用中の投資損失、データの損失などについて、一切の責任を負うものではありません。</p></li><li><p>当社は、本サービスに起因して会員に生じたあらゆる損害について一切の責任を負いません。ただし、本サービスに関する当社と会員との間の契約(本規約を含みます。)が消費者契約法に定める消費者契約となる場合、本規約の免責規定は適用されません。</p></li><li><p>第8項に定める場合であっても、当社は、当社の過失(重過失を除きます)による債務不履行または不法行為により会員に生じた損害のうち特別な事情から生じた損害(当社または会員が損害発生につき予見し、または予見し得た場合を含みます)について一切の責任を負いません。また、当社の過失(重過失を除きます)による債務不履行または不法行為により会員に生じた損害の賠償は、会員の損害の事由が生じた時点から遡って過去1ヶ月の期間に会員から当社が現実に受領した各手数料および決済代行手数料の合計金額相当額を上限とします。</p></li></ol><h3><a name='header-n356' class='md-header-anchor '></a>第十条.合意</h3><ol start='' ><li>当規約には、TokenPocket利用規約、TokenPocketプライバシーポリシー、および当社が随時掲載するその他のルール（「サポート」欄の内容を含む）が組み込まれています。</li><li>管轄権を有する裁判所が当規約の規定のいずれかが無効であると判明した場合、その条項は完全に強制されます。</li><li>本契約の英語版およびその他の翻訳版（ある場合）は、ユーザーの便宜のために提供されており、当規約の日本語版を改正するものではありません。規約の日本語版と非日本語版との間に矛盾がある場合は、日本語版が優先します。</li></ol><h3><a name='header-n367' class='md-header-anchor '></a>第十一条.知的財産権保護</h3><ol start='' ><li>TokenPocketは、当社によって開発され、所有されているアプリケーションです。TokenPocket（規約、告知、記事、ビデオ、オーディオ、画像、アーカイブ、情報、資料、商標またはロゴを含む）に表示されるすべてのコンテンツの知的財産権、当社または第三者のライセンサーによって所有されています。ユーザーはトークンを保持および管理する目的でのみ、TokenPocketアプリケーションとその内容を使用できます。特に、TokenPocketまたは第三者のライセンサーからの事前の書面による同意なしに、誰も上記のアプリケーションおよびコンテンツを使用、改変、逆コンパイル、再生、公開、改変、配布、発行、公開することはできません。</li></ol><h3><a name='header-n372' class='md-header-anchor '></a>第十ニ条.係争</h3><ol start='' ><li>当規約およびその改訂版の有効性、解釈、交替、執行、係争解決は、提供されるエリアの国の法律に準拠し、解釈されます。適用される法律がない場合、当規約は適用される商業上および/または産業上の慣行により解釈されるものとします。</li><li>当事者と当社との間で当規約に関連する係争または請求が生じた場合、両当事者は最初に善意で交渉を行うことによって紛争またはクレームを解決しようとします。当事者が合意に達することができない場合、いずれの当事者も合意書がある管轄裁判所で相手方を訴えることができるものとします。</li></ol><h3><a name='header-n380' class='md-header-anchor '></a>第十三条.一般条項</h3><ol start='' ><li><p>本サービスに関する当社から会員への通知・連絡は、当社が運営するウェブサイトまたはアプリケーション内の適宜の場所への掲示その他、当社が適当と判断する方法により行うものとします。当社は、個々の会員に通知および連絡をする必要があると判断した際、会員登録情報の電子メールアドレス、住所または電話番号に対し、通知および連絡を行うことがあります。当社からの通知および連絡が不着または遅延することによって損害が生じた場合であっても、当社は一切の責任を負いません。</p><p>a) 本利用規約のいずれかの条項またはその一部が、消費者契約法その他の法令等により無効または失効不能と判断された場合であっても、本利用規約の残りの部分は、継続して完全に効力を有し、当社および会員は、当該無効若しくは執行不能の条項または部分を適法とし、執行力を持たせるために必要な範囲で修正し、当該無効若しくは執行不能な条項 または部分の趣旨並びに法律的および経済的に同等の効果を確保できるよう解釈するものとします。</p><p>b) 本利用規約に定めのない事項または本利用規約の解釈に疑義が生じた場合には、会員は、当社の定めるところに従うものとします。これにより解決しない場合には、当社および会員は、信義誠実の原則に従って協議の上速やかに解決を図るものとします。</p></li></ol><h3><a name='header-n392' class='md-header-anchor '></a>第十四条.その他</h3><ol start='' ><li>当社サービスの使用中に、問題が発生した場合は、TokenPocketに関するフィードバックを提出することで、私たちに連絡することができます。</li><li>当規約は、TokenPocketのすべてのユーザーがアクセスできます。 TokenPocketにログオンするたびに、当規約をお読みください。</li><li>当規約は、2017年12月1日に発効します。</li></ol></div>
+</body>
+</html>
