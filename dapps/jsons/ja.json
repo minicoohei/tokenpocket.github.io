@@ -1,0 +1,147 @@
+{
+    "version": "1.2.2",
+    "1.取引所": [
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "kybernetwork",
+            "name": "Kyber Network",
+            "url": "https://web3.kyber.network",
+            "description": "セキュリティを重視しDEX(分散型取引所)を開発するためのプロジェクトです"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "forkdelta",
+            "name": "Fork Delta",
+            "url": "https://forkdelta.github.io",
+            "description": "イーサリアム系トークンを扱う最多のトークン数が特徴のDEX"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "makerdao",
+            "name": "DAI Explorer",
+            "url": "https://dai.makerdao.com",
+            "description": "ステーブルコインDAIのダッシュボード"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "oasisdirect",
+            "name": "Oasis Direct",
+            "url": "https://oasis.direct",
+            "description": "ETHをDAIやMKRと簡単に交換できる登録不要の分散型取引所"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "ercdex",
+            "name": "ERC dEX",
+            "url": "https://app.ercdex.com",
+            "description": "ウォレットから直接ERC20トークンの取引が可能な分散型取引所"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "bancor",
+            "name": "Bancor",
+            "url": "https://www.bancor.network",
+            "description": "流動性を担保し、２つの異なるトークンを変換できるプラットフォーム"
+        }
+    ],
+    "2.ゲーム": [
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "cryptoanddragons",
+            "name": "Crypto And Dragons",
+            "url": "https://cryptoanddragons.com",
+            "description": "モンスターを収集、育成して軍団を作り、他のプレイヤーとダンジョンを奪い合うゲームです。"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "cryptokitties",
+            "name": "CryptoKitties",
+            "url": "https://www.cryptokitties.co",
+            "description": "ブロックチェーン上で、育成/収集できる愛らしい猫を集めるゲーム"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "cryptocrystal",
+            "name": "CryptoCrystal",
+            "url": "https://cryptocrystal.io",
+            "description": "命を持つ希少な鉱石をブロックチェーン上で採掘、育成できるゲーム"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "axieinfinity",
+            "name": "Axie Infinity",
+            "url": "https://axieinfinity.com",
+            "description": "アクシーと呼ばれる空想上の生き物を集めて育てるゲーム"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "etheremon",
+            "name": "Etheremon",
+            "url": "https://www.etheremon.com",
+            "description": "イーサモンスターを捕まえたり、進化させたり、 交換したりできるゲーム"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "ethercraft",
+            "name": "Ethercraft",
+            "url": "https://ethercraft.io",
+            "description": "ブロックチェーン上で遊べる世界初分散型RPG"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "etherbots",
+            "name": "EtherBots",
+            "url": "https://etherbots.io",
+            "description": "ブロックチェーン上で展開される分散型ロボット対戦ゲーム"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "cryptobots",
+            "name": "CryptoBots",
+            "url": "https://cryptobots.me",
+            "description": "ブロックチェーン上で一番強いロボットアーミーを決めるゲーム"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "decentraland",
+            "name": "Decentraland Marketplace",
+            "url": "https://market.decentraland.org",
+            "description": "DecentralandのLANDが交換できるマーケットプレイス"
+        }
+    ],
+    "3.マーケットプレイス": [
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "rarebits",
+            "name": "Rare Bits",
+            "url": "https://rarebits.io",
+            "description": "500,000以上の仮想資産を手数料なしで売買できるマーケットプレース"
+        }
+    ],
+    "4.ソーシャルネットワーキング": [
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "peepeth",
+            "name": "Peepeth",
+            "url": "https://peepeth.com",
+            "description": "ブロックチェーン上で提供される分散型ツイッター"
+        }
+    ]
+}
