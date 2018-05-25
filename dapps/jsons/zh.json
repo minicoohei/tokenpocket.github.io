@@ -1,0 +1,147 @@
+{
+    "version": "1.2.3",
+    "1.Exchanges": [
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "kybernetwork",
+            "name": "Kyber Network",
+            "url": "https://web3.kyber.network",
+            "description": "An instant decentralized cryptocurrency exchange service. Trade directly from your wallet."
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "forkdelta",
+            "name": "Fork Delta",
+            "url": "https://forkdelta.github.io",
+            "description": "A decentralized Ethereum Token Exchange with the most ERC20 listings."
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "makerdao",
+            "name": "DAI Explorer",
+            "url": "https://dai.makerdao.com",
+            "description": "Dai is a decentralized stablecoin"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "oasisdirect",
+            "name": "Oasis Direct",
+            "url": "https://oasis.direct",
+            "description": "THE FIRST DECENTRALIZED INSTANT EXCHANGE　No Registration. No Fees."
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "ercdex",
+            "name": "ERC dEX",
+            "url": "https://app.ercdex.com",
+            "description": "No need to deposit. Trade ERC20 tokens directly from your wallet."
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "bancor",
+            "name": "Bancor",
+            "url": "https://www.bancor.network",
+            "description": "Convert between any two tokens with no counterparty, at an automatically calculated price."
+        }
+    ],
+    "2.Games": [
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "cryptoanddragons",
+            "name": "Crypto And Dragons",
+            "url": "https://cryptoanddragons.com",
+            "description": "Collect monsters and train them up, then make monster corps. After that, you battle for dungeon ownerships with other players."
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "cryptokitties",
+            "name": "CryptoKitties",
+            "url": "https://www.cryptokitties.co",
+            "description": "CryptoKitties is a game centered around breedable, collectible, and oh-so-adorable creatures."
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "cryptocrystal",
+            "name": "CryptoCrystal",
+            "url": "https://cryptocrystal.io",
+            "description": "World's 1st sentient Crystal.You can Mine, Raise, and Trade Crystals on the Ethereum Network."
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "axieinfinity",
+            "name": "Axie Infinity",
+            "url": "https://axieinfinity.com",
+            "description": "A game about collecting and raising fantasy creatures called Axie, on the Ethereum platform."
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "etheremon",
+            "name": "Etheremon",
+            "url": "https://www.etheremon.com",
+            "description": "A world of Ether monsters where you can capture, transform and trade them with others"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "ethercraft",
+            "name": "Ethercraft",
+            "url": "https://ethercraft.io",
+            "description": "A decentralized RPG running on the Ethereum Blockchain"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "etherbots",
+            "name": "EtherBots",
+            "url": "https://etherbots.io",
+            "description": "Decentralized Robot Wars on the blockchain"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "cryptobots",
+            "name": "CryptoBots",
+            "url": "https://cryptobots.me",
+            "description": "A blockchain-based game to find out whose bot army is the best!"
+        },
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "decentraland",
+            "name": "Decentraland Marketplace",
+            "url": "https://market.decentraland.org",
+            "description": "The Decentraland Marketplace allows users to browse, buy, sell, and manage LAND tokens."
+        }
+    ],
+    "3.Marketplaces": [
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "rarebits",
+            "name": "Rare Bits",
+            "url": "https://rarebits.io",
+            "description": "Buy, sell, and discover unique crypto assets.Over 500,000 assets. Zero fees."
+        }
+    ],
+    "4.Social Networking": [
+        {
+            "mainNet": true,
+            "valid": true,
+            "uid": "peepeth",
+            "name": "Peepeth",
+            "url": "https://peepeth.com",
+            "description": "Peepeth is blockchain-powered microblogging."
+        }
+    ]
+}
