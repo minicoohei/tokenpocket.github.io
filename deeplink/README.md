@@ -15,7 +15,6 @@ https://tokenpocket.github.io/applink?dappUrl=Your_Dapp_Url
 
 ![dapp](/deeplink/dapp.gif) 
 
-
 ## Transaction Deeplink (Beta)
 
 Add this link to your ICO webside. User can send ether to your Contract Address deirctly from TokenPocket
