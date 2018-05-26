@@ -1,6 +1,6 @@
 # TokePocket Ethereum Wallet
 
-[![applestore](/images/applestore.svg)](https://itunes.apple.com/app/id1288636393/)
+[![applestore](/images/badge_apple.png)](https://itunes.apple.com/app/id1288636393/) ![applestore](/images/badge_google.png)]
 
 ## Dapps browser in you phone
 
