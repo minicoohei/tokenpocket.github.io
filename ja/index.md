@@ -1,15 +1,16 @@
-# トークンポケット・イーサリアム・ウォレット
+# TokePocket Ethereum Wallet
 
 [![applestore](/images/applestore.svg)](https://itunes.apple.com/app/id1288636393/)
 
-## スマホで使える Dappsブラウザ
+## Dapps browser in you phone
 
-「CryptoKitties」を始め、「ForkDelta」などのDex、「RareBits」といったマーケットプレイスサービスなどのDappsに対応しています。Dappsは順次追加予定。
+Support popular dapps, such as Cryptokitties (game), Forkdelta (DEX), RareBits (Marketplace) and so on. Other Dapps will be also added gradually.
 
-## 資産が ひと目でわかる
+## Full Overview of your assets
 
-あなたのイーサリアム・トークンの 所持量がわかります。イーサリアムはもちろんトークン(CoinMarketCapに掲載されているトークン)の価格がわかるので、総資産額もひと目でわかります。
+You can see your Ethreum& ERC20 tokens balance and portfolio.
+Simply tracking your digital assets by price of Ethreum and other Tokens (Tokens lised on CoinMarketCap).
 
-## 安全に管理できる
+## Safely Managed
 
-あなたのウォレットはあなただけのものです。オフラインでもウォレットの作成が可能、ウォレットの秘密鍵はサーバーに一切保存しません。
+Wallet just only for you. Fully buiddable off-line. No storing sercret-key on server.
