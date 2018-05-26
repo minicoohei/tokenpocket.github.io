@@ -1,4 +1,6 @@
-# TokenPocket Inc
+# Dapps Browser & ERC20/ERC223 Tokens. Bring Ethereum to your pocket
+
+[![applestore](/images/applestore.svg)](https://itunes.apple.com/app/id1288636393/)
 
 ## Dapps browser in you phone
 
