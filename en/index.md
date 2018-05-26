@@ -1,7 +1,5 @@
 # TokePocket Ethereum Wallet
 
-[![applestore](/images/badge_apple.png)](https://itunes.apple.com/app/id1288636393/) ![applestore](/images/badge_google.png)]
-
 ## Dapps browser in you phone
 
 Support popular dapps, such as Cryptokitties (game), Forkdelta (DEX), RareBits (Marketplace) and so on. Other Dapps will be also added gradually.

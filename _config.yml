@@ -1,3 +1,6 @@
 theme: jekyll-theme-cayman
 title: TokenPocket
 description: Dapps Browser & Wallet for Ethereum, ERC20 and ERC223 tokens
+ios_download_url: https://itunes.apple.com/app/id1288636393/
+android_download_url: /
+

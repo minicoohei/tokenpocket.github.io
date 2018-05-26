@@ -1,7 +1,5 @@
 # トークンポケット・イーサリアム・ウォレット
 
-[![applestore](/images/badge_apple.png)](https://itunes.apple.com/app/id1288636393/) ![applestore](/images/badge_google.png)]
-
 ## スマホで使える Dappsブラウザ
 
 「CryptoKitties」を始め、「ForkDelta」などのDex、「RareBits」といったマーケットプレイスサービスなどのDappsに対応しています。Dappsは順次追加予定。
