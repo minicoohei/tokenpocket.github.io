@@ -20,9 +20,8 @@ TokenPocket hereby reminds you that you must carefully read the full content of 
 
 2. User:
 
-   a) a User must be a natural person who possesses full capacity for civil acts;
-
-   b) if you are under 18 years old, please use TokenPocket under the guidance of your parents or guardians. If any person of no capacity for civil acts conducts any transactions on TokenPocket or any person of limited capacity for civil acts conducts any transaction which does not commensurate his/her civil rights or act capacity, the parents or guardians of the User shall be liable for the consequences of such transactions.
+    a) a User must be a natural person who possesses full capacity for civil acts;
+    b) if you are under 18 years old, please use TokenPocket under the guidance of your parents or guardians. If any person of no capacity for civil acts conducts any transactions on TokenPocket or any person of limited capacity for civil acts conducts any transaction which does not commensurate his/her civil rights or act capacity, the parents or guardians of the User shall be liable for the consequences of such transactions.
 
 3. Create or import wallet: means you use TokenPocket to create or import wallet after you accept this Agreement.
 
@@ -52,7 +51,7 @@ TokenPocket hereby reminds you that you must carefully read the full content of 
 2. Transfer and receive Tokens. You may manage your digital Tokens by using the transfer and reception functionalities of TokenPocket, i.e., you may revise the blockchain ledger by signing with your Private Key. Transfer of Tokens means the payer transfer the Token to the blockchain address of the payee. The actual transfer of Tokens happens on the blockchain system (instead of on TokenPocket).
 3. Manage Tokens. You may use TokenPocket to add, manage or delete the Tokens (except ETH) supported by TokenPocket.
 4. Browse DApps. Users may use TokenPocket to visit and use the services provided by DApps (including DApps developed by TokenPocket and DApps developed by third parties).
-5. Transaction records. We will copy all or part of your transaction records from the blockchain system. 
+5. Transaction records. We will copy all or part of your transaction records from the blockchain system.
 6. Suspension of service. You understand that we are not able to reverse or cancel the transaction because transactions based on blockchain technologies are irrevocable. However, under certain circumstances, we may suspend or limit the function of TokenPocket used by a particular User.
 7. Other services that TokenPocket would like to provide.
 
@@ -60,17 +59,12 @@ Users who use TokenPocket must understand that:
 
 1. In order to keep the decentralization feature of blockchain and to protect the security of your digital Tokens, TokenPocket offers decentralized service which is largely different from the banking and financial institutions. Users shall understand that TokenPocket DOES NOT provide the following services:
 
-   a) store Users’ Wallet Password (the password Users set when creating or importing wallets), Private Key, Mnemonic Words or Keystore;
-
-   b) restore Users’ Wallet Password, Private Key, Mnemonic Words or Keystore;
-
-   c) freeze the wallet;
-
-   d) report the loss of wallet;
-
-   e) restore the wallet;
-
-   f) rollback transactions.
+    a) store Users’ Wallet Password (the password Users set when creating or importing wallets), Private Key, Mnemonic Words or Keystore;
+    b) restore Users’ Wallet Password, Private Key, Mnemonic Words or Keystore;
+    c) freeze the wallet;
+    d) report the loss of wallet;
+    e) restore the wallet;
+    f) rollback transactions.
 
 2. Users shall take care of their mobile devices, back up the TokenPocket App, and back up the Wallet Password, Mnemonic Words, Private Key and Keystore by themselves. If your mobile device is lost, your TokenPocket App or your wallet is deleted and not backed up, your wallet is stolen or you forget your Wallet Password, Private Key, Mnemonic Words or Keystore, TokenPocket is not able to recover the wallet or restore Wallet Password, Private Key, Mnemonic Words or Keystore. Nor can TokenPocket cancel transactions for the mishandling of Users (such as typing in wrong addresses for transactions).
 
@@ -84,54 +78,46 @@ Users who use TokenPocket must understand that:
 
 1. Create or Import Wallet
 
-   a) Create or import wallet: you are entitled to use TokenPocket on your mobile device to create and/or import wallet, set Wallet Password and use your wallet on TokenPocket to transfer and receive Tokens on blockchain.
-
-   b) Identification verification: Specific Users will be asked to complete identification verification before using TokenPocket to comply with related laws and regulations, according to the notification of TokenPocket. Specific Users may be asked to provide Personal Information including but not limited to name, identification card number, cell phone number, bank card information, etc., without which the Specific Users will not be able to use certain services and the Specific Users alone shall be responsible for the loss caused by their delay in completing the verification.
-
-   c) TokenPocket may develop different versions of TokenPocket for different terminal devices. You shall download and install applicable version. If you download and install TokenPocket or other application with the same name as “TokenPocket” from any unauthorized third party, TokenPocket cannot guarantee the normal operation or security of such application. Any loss caused by using such application shall be borne by you.
-
-   d) A previous version of TokenPocket may stop to operate after a new version is released. TokenPocket cannot guarantee the security, continuous operation or customer services for the previous version. Users shall download and use the latest version.
+    a) Create or import wallet: you are entitled to use TokenPocket on your mobile device to create and/or import wallet, set Wallet Password and use your wallet on TokenPocket to transfer and receive Tokens on blockchain.
+    b) Identification verification: Specific Users will be asked to complete identification verification before using TokenPocket to comply with related laws and regulations, according to the notification of TokenPocket. Specific Users may be asked to provide Personal Information including but not limited to name, identification card number, cell phone number, bank card information, etc., without which the Specific Users will not be able to use certain services and the Specific Users alone shall be responsible for the loss caused by their delay in completing the verification.
+    c) TokenPocket may develop different versions of TokenPocket for different terminal devices. You shall download and install applicable version. If you download and install TokenPocket or other application with the same name as “TokenPocket” from any unauthorized third party, TokenPocket cannot guarantee the normal operation or security of such application. Any loss caused by using such application shall be borne by you.
+    d) A previous version of TokenPocket may stop to operate after a new version is released. TokenPocket cannot guarantee the security, continuous operation or customer services for the previous version. Users shall download and use the latest version.
 
 2. Use of TokenPocket
 
-   a) Users shall take care of their mobile devices, Wallet Password, Private Key, Mnemonic Words and Keystore by themselves. TokenPocket does not store or hold the above information for Users. You shall be responsible for any risks, liabilities, losses and expenses which result from frauds, you losing your mobile device, disclosing (whether actively or passively) or forgetting Wallet Password, Private Key, Mnemonic Words or Keystore, or your wallet being attacked.
+    a) Users shall take care of their mobile devices, Wallet Password, Private Key, Mnemonic Words and Keystore by themselves. TokenPocket does not store or hold the above information for Users. You shall be responsible for any risks, liabilities, losses and expenses which result from frauds, you losing your mobile device, disclosing (whether actively or passively) or forgetting Wallet Password, Private Key, Mnemonic Words or Keystore, or your wallet being attacked.
 
-   b) Follow the Alert. You understand and agree to follow the Alert pushed by TokenPocket. You shall be responsible for any risks, liabilities, losses and expenses which result from your failure to comply with the Alert.
+    b) Follow the Alert. You understand and agree to follow the Alert pushed by TokenPocket. You shall be responsible for any risks, liabilities, losses and expenses which result from your failure to comply with the Alert.
 
-   c) You understand that TokenPocket undertakes no responsibility to conduct due diligence on the services or transactions provided by third-party-developed DApps. You shall make investment decisions rationally and assume the risks by yourself.
+    c) You understand that TokenPocket undertakes no responsibility to conduct due diligence on the services or transactions provided by third-party-developed DApps. You shall make investment decisions rationally and assume the risks by yourself.
 
-   d) Complete the identification verification. If TokenPocket reasonably deems your operation or transactions to be abnormal, or considers your identification to be doubtful, or TokenPocket considers it necessary to verify your identification documents or other necessary documents, you shall cooperate with TokenPocket and provide your valid identification documents or other necessary documents and complete the identification verification in time.
+    d) Complete the identification verification. If TokenPocket reasonably deems your operation or transactions to be abnormal, or considers your identification to be doubtful, or TokenPocket considers it necessary to verify your identification documents or other necessary documents, you shall cooperate with TokenPocket and provide your valid identification documents or other necessary documents and complete the identification verification in time.
 
-   e) Transfer of Tokens
+    e) Transfer of Tokens
 
-   ​	i. You understand that you may be subject to daily limits on the amount and times of transfers according to your location, regulatory requirements, transferring purposes, risk control by TokenPocket, or identification verification.
+        i. You understand that you may be subject to daily limits on the amount and times of transfers according to your location, regulatory requirements, transferring purposes, risk control by TokenPocket, or identification verification.
+        ii. You understand that blockchain operations are “irrevocable”. When you use TokenPocket to transfer Tokens, you shall be responsible for the consequences of your mishandling of the transfer (including but not limited to wrong address, problems of the node servers selected by you).
+        iii. You understand that the following reasons may result in “transfer failed” or “mining overtime”
 
-   ​	ii. You understand that blockchain operations are “irrevocable”. When you use TokenPocket to transfer Tokens, you shall be responsible for the consequences of your mishandling of the transfer (including but not limited to wrong address, problems of the node servers selected by you).
+        insufficient balance in wallet;
+        insufficient gas for transaction;
+        blockchain’s failure to execute the code of smart contracts;
+        the transfer amount exceeds the transfer limits imposed by authorities, TokenPocket or laws or regulations;
+        technical failure of the network or equipment;
+        abandoned transactions result from blockchain network congestion or failure;
+        the wallet address of yours or your counterparty’s is identified as special addresses, such as high-risk address, exchange address, ICO address, Token address etc.
+        iv. You understand that TokenPocket is only a tool for transfer of Tokens. TokenPocket shall be deemed to have fulfilled its obligations once you have finished the transfer and shall not be held liable for any other disputes.
 
-   ​	iii. You understand that the following reasons may result in “transfer failed” or “mining overtime”
+    f) Compliance. You understand that you shall abide by , regulations and policies when you use TokenPocket or the DApps on TokenPocket.
 
-   ​	insufficient balance in wallet;
-   	insufficient gas for transaction;
-   	blockchain’s failure to execute the code of smart contracts;
-   	the transfer amount exceeds the transfer limits imposed by authorities, TokenPocket or laws or regulations;
-   	technical failure of the network or equipment;
-   	abandoned transactions result from blockchain network congestion or failure;
-   	the wallet address of yours or your counterparty’s is identified as special addresses, such as high-risk address, exchange address, ICO address, Token address etc.
-   	iv. You understand that TokenPocket is only a tool for transfer of Tokens. TokenPocket shall be deemed to have fulfilled its obligations once you have finished the transfer and shall not be held liable for any other disputes.
+    g) Notifications. TokenPocket may send notifications to you by web announcements, e-mails, text messages, phone calls, Notification Centre information, popup tips or client-end notices (e.g., information about your transfer or suggestions on certain operations) which you shall be aware of timely.
 
-   f) Compliance. You understand that you shall abide by , regulations and policies when you use TokenPocket or the DApps on TokenPocket.
+    h) Service fees and taxes.
 
-   g) Notifications. TokenPocket may send notifications to you by web announcements, e-mails, text messages, phone calls, Notification Centre information, popup tips or client-end notices (e.g., information about your transfer or suggestions on certain operations) which you shall be aware of timely.
-
-   h) Service fees and taxes.
-
-   i. TokenPocket does not charge you any service fees or handling fees for now. TokenPocket may reach an agreement with you or announce rules regarding service fees in the future;
-
-   ii. You need to pay gas when you transfer Tokens, the amount of which would be on your sole discretion and would be collected by certain blockchain system;
-
-   iii. You understand that under some specific circumstances, your transfer of Tokens may fail due to instable network, but you may still be charged gas by certain blockchain system;
-
-   iv. You shall bear all the applicable taxes and other expenses occurred due to your transactions on TokenPocket.
+        i. TokenPocket does not charge you any service fees or handling fees for now. TokenPocket may reach an agreement with you or announce rules regarding service fees in the future;
+        ii. You need to pay gas when you transfer Tokens, the amount of which would be on your sole discretion and would be collected by certain blockchain system;
+        iii. You understand that under some specific circumstances, your transfer of Tokens may fail due to instable network, but you may still be charged gas by certain blockchain system;
+        iv. You shall bear all the applicable taxes and other expenses occurred due to your transactions on TokenPocket.
 
 ### V. Risks
 
@@ -153,35 +139,23 @@ Users who use TokenPocket must understand that:
 
 3. You understand that TokenPocket may suspend services under the following circumstances:
 
-   a) due to the maintenance, upgrading, failure of equipment and blockchain system and the interruption of communications etc., which lead to the suspension of the operation of TokenPocket;
-
-   b) due to force majeure events including but not limited to typhoon, earthquake, tsunami, flood, power outage, war, or terrorist attacks, or computer viruses, Trojan Horse, hacker attacks, system instability or government behaviors and other reasons, TokenPocket is unable to provide services or in TokenPocket’ reasonable opinion, continuous provision of services would result in significant risks;
-
-   c) due to other events which TokenPocket cannot control or reasonably predicate.
+    a) due to the maintenance, upgrading, failure of equipment and blockchain system and the interruption of communications etc., which lead to the suspension of the operation of TokenPocket;
+    b) due to force majeure events including but not limited to typhoon, earthquake, tsunami, flood, power outage, war, or terrorist attacks, or computer viruses, Trojan Horse, hacker attacks, system instability or government behaviors and other reasons, TokenPocket is unable to provide services or in TokenPocket’ reasonable opinion, continuous provision of services would result in significant risks;
+    c) due to other events which TokenPocket cannot control or reasonably predicate.
 
 4. TokenPocket reserves the right to unilaterally suspend or terminate all or part of the function of TokenPocket under the following circumstances:
 
-   a) death of Users;
-
-   b) if you steal others’ wallets information or mobile devices;
-
-   c) if you provide false Personal Information on TokenPocket;
-
-   d) if you refuse to allow mandatory update of TokenPocket;
-
-   e) if you use TokenPocket to commit illegal or criminal activities;
-
-   f) if you hinder the normal use of TokenPocket by other Users;
-
-   g) if you pretend to be staff or management personnel of TokenPocket;
-
-   h) if you threaten the normal operation of TokenPocket computer system by attack, invasion, alternation or any other means;
-
-   i) if you use TokenPocket to send spams;
-
-   j) if you spread rumors which endanger the goodwill of TokenPocket and TokenPocket;
-
-   k) if you conduct any illegal activities, breach this Agreement etc. or other circumstances under which TokenPocket reasonably considers necessary to suspend services.
+    a) death of Users;
+    b) if you steal others’ wallets information or mobile devices;
+    c) if you provide false Personal Information on TokenPocket;
+    d) if you refuse to allow mandatory update of TokenPocket;
+    e) if you use TokenPocket to commit illegal or criminal activities;
+    f) if you hinder the normal use of TokenPocket by other Users;
+    g) if you pretend to be staff or management personnel of TokenPocket;
+    h) if you threaten the normal operation of TokenPocket computer system by attack, invasion, alternation or any other means;
+    i) if you use TokenPocket to send spams;
+    j) if you spread rumors which endanger the goodwill of TokenPocket and TokenPocket;
+    k) if you conduct any illegal activities, breach this Agreement etc. or other circumstances under which TokenPocket reasonably considers necessary to suspend services.
 
 5. You are entitled to export your wallets within a reasonable amount of time if TokenPocket changes, suspends or terminates its services.
 
@@ -190,14 +164,14 @@ Users who use TokenPocket must understand that:
 1. You shall comply with: 1) all applicable laws and regulations of PRC and 2) all applicable laws and regulations of the country or area you reside in. You shall not use TokenPocket for any unlawful purposes or by any unlawful means.
 2. You shall not use TokenPocket to commit any illegal or unlawful activities, including but not limited to:
 
-a) activities opposing the basic principles set forth in the PRC’s Constitution, endangering national security, disclosing state secrets, overturning the government or undermining national unity;
-b) any illegal conducts, such as money laundering, illegal fund raising etc.;
-c) accessing TokenPocket services, collecting or processing the content provided by TokenPocket, intervening or attempting to intervene any Users, by the employment of any automated programs, software, network engines, web crawlers, web analytics tools, data mining tools or similar tools etc.;
-d) providing gambling information or inducing others to engage in gambling;
-e) invading into others’ TokenPocket wallets to steal Tokens;
-f) engaging in any inaccurate or false transactions with the counterparty;
-g) committing any activities which harms or attempts to harm TokenPocket service system and data;
-h) other activities which TokenPocket has reason to believe are inappropriate.
+    a) activities opposing the basic principles set forth in the PRC’s Constitution, endangering national security, disclosing state secrets, overturning the government or undermining national unity;
+    b) any illegal conducts, such as money laundering, illegal fund raising etc.;
+    c) accessing TokenPocket services, collecting or processing the content provided by TokenPocket, intervening or attempting to intervene any Users, by the employment of any automated programs, software, network engines, web crawlers, web analytics tools, data mining tools or similar tools etc.;
+    d) providing gambling information or inducing others to engage in gambling;
+    e) invading into others’ TokenPocket wallets to steal Tokens;
+    f) engaging in any inaccurate or false transactions with the counterparty;
+    g) committing any activities which harms or attempts to harm TokenPocket service system and data;
+    h) other activities which TokenPocket has reason to believe are inappropriate.
 
 3. You understand and accept that you shall be responsible for any violation of law (including but not limited to the regulations of the Customs and Tax) or for breach of this Agreement by you and shall indemnify TokenPocket against the losses, the third-party claims or administrative penalties against TokenPocket incurred by such violation or breach, including reasonable attorney’s fees.
 4. You confirm that you will pay the service fees charged by TokenPocket in time (if applicable). TokenPocket reserves the right to suspend the services when the User fails to pay service fees (if applicable).
@@ -211,34 +185,34 @@ h) other activities which TokenPocket has reason to believe are inappropriate.
 1. TokenPocket only undertakes obligations expressly set forth in this Agreement.
 2. YOU ACKNOWLEDGE AND ACCEPT THAT,TokenPocket IS PROVIDED ON AN “AS IS”, “AS AVAILABLE” AND “WITH ALL FAULTS” BASIS. TokenPocket shall not be held liable for malfunction of TokenPocket which results from the following reasons:
 
-a) system maintenance or upgrading of TokenPocket;
-b) force majeure, such as typhoon, earthquake, flood, lightning or terrorist attack etc.;
-c) malfunction of your mobile device hardware and software, and failure of telecommunication lines and power supply lines;
-d) your improper, unauthorized or unrecognized use of TokenPocket services;
-e) computer viruses, Trojan Horse, malicious program attacks, network congestion, system instability, system or equipment failure, telecommunication failure, power failure, banking issues, government acts etc.;
-f) any other reasons not imputed to TokenPocket.
+    a) system maintenance or upgrading of TokenPocket;
+    b) force majeure, such as typhoon, earthquake, flood, lightning or terrorist attack etc.;
+    c) malfunction of your mobile device hardware and software, and failure of telecommunication lines and power supply lines;
+    d) your improper, unauthorized or unrecognized use of TokenPocket services;
+    e) computer viruses, Trojan Horse, malicious program attacks, network congestion, system instability, system or equipment failure, telecommunication failure, power failure, banking issues, government acts etc.;
+    f) any other reasons not imputed to TokenPocket.
 
 3. TokenPocket shall not be held liable under the following circumstances:
 
-a) Users lose their mobile devices, delete TokenPocket applications and wallets without back-up, forget Wallet Passwords, Private Keys, Mnemonic Words, Keystores without back-up, which result in the loss of their Tokens;
-b) Users disclose their Wallet Passwords, Private Keys, Mnemonic Words, Keystores, or lend or transfer their TokenPocket wallets to others, or authorize others to use their mobile devices or TokenPocket wallets, or download TokenPocket applications through unofficial channels, or use TokenPocket applications by other insecure means, which result in the loss of their Tokens;
-c) Users mishandle TokenPocket (including but not limited to wrong address, failure of the node servers selected by you), which result in the loss of Tokens;
-d) Users are unfamiliar with the knowledge of blockchain and their mishandling of TokenPocket results in loss of their Tokens;
-e) TokenPocket is unable to copy accurate transaction records due to system delay or blockchain instability etc.;
-f) Users shall undertake the risks and consequences of their transactions on the third-party-developed DApps.
+    a) Users lose their mobile devices, delete TokenPocket applications and wallets without back-up, forget Wallet Passwords, Private Keys, Mnemonic Words, Keystores without back-up, which result in the loss of their Tokens;
+    b) Users disclose their Wallet Passwords, Private Keys, Mnemonic Words, Keystores, or lend or transfer their TokenPocket wallets to others, or authorize others to use their mobile devices or TokenPocket wallets, or download TokenPocket applications through unofficial channels, or use TokenPocket applications by other insecure means, which result in the loss of their Tokens;
+    c) Users mishandle TokenPocket (including but not limited to wrong address, failure of the node servers selected by you), which result in the loss of Tokens;
+    d) Users are unfamiliar with the knowledge of blockchain and their mishandling of TokenPocket results in loss of their Tokens;
+    e) TokenPocket is unable to copy accurate transaction records due to system delay or blockchain instability etc.;
+    f) Users shall undertake the risks and consequences of their transactions on the third-party-developed DApps.
 
 4. You understand that TokenPocket is only an management tool for Tokens which is incapable to control the quality, security and legitimacy of products and services provided by the third-party-developed DApps, or the authenticity and accuracy of their information and their capabilities to fulfill the obligations under the agreements with you. You, at your sole discretion, decide whether to transact on the third-party-developed DApps. It is the third-party-developed DApps, instead of TokenPocket, that transact with you. We kindly remind you to carefully review the authenticity, legitimacy, and effectiveness of related information provided by the third-party-developed DApps before you decide to use the DApps. In addition, you shall also assume all the risks arising from the transactions between you and any third party exchanges.
 5. You acknowledge that TokenPocket may provide services to you and your counterparties simultaneously and you agree to waive any actual or potential conflicts of interests and will not claim against TokenPocket on such base or burden TokenPocket with more responsibilities or duty of care.
 6. TokenPocket does not warrant that:
 
-a) services provided by TokenPocket would satisfy all your needs;
-b) all techniques, products, services, information or other materials from TokenPocket would meet your expectations;
-c) all the transaction information in digital tokens markets captured from the third party exchanges are prompt, accurate, complete, and reliable;
-d) your counterparties on TokenPocket will perform their obligations in the transaction agreements with you timely.
+    a) services provided by TokenPocket would satisfy all your needs;
+    b) all techniques, products, services, information or other materials from TokenPocket would meet your expectations;
+    c) all the transaction information in digital tokens markets captured from the third party exchanges are prompt, accurate, complete, and reliable;
+    d) your counterparties on TokenPocket will perform their obligations in the transaction agreements with you timely.
 
 7. In any case, the total liability for TokenPocket under this Agreement shall not exceed the greater of:
 
-a) 0.1 Ether; 
+    a) 0.1 Ether;
 
 8. You are aware that TokenPocket is only a tool for Users to manage their Tokens and to display transaction information. TokenPocket does not provide legal, tax or investment advice. You shall seek advice from professional legal, tax, and investment advisors. In addition, TokenPocket shall not be liable for any investment loss, data loss etc. during your use of our service.
 9. You understand that we may change our entry standards, limit the range and ways to provide services for specific Users etc. at any time in accordance with your laws and regulations.
