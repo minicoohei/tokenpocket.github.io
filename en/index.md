@@ -1,4 +1,4 @@
-# TokePocket Ethereum Safe Wallet
+# TokePocket Ethereum Wallet
 
 [![applestore](/images/applestore.svg)](https://itunes.apple.com/app/id1288636393/)
 
