@@ -1,4 +1,4 @@
-# Dapps Browser & ERC20/ERC223 Tokens. Bring Ethereum to your pocket
+# TaokePocket Ethereum Safe Wallet
 
 [![applestore](/images/applestore.svg)](https://itunes.apple.com/app/id1288636393/)
 
