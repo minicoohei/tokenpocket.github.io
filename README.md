@@ -1,4 +1,4 @@
-# TaokePocket Ethereum Safe Wallet
+# TokePocket Ethereum Safe Wallet
 
 ## Dapps browser in you phone
 
