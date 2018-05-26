@@ -8,7 +8,7 @@ This is document of how to use TokenPocket deeplink to connect your Dapps or ICO
 2. If the user have not install TokenPocket. This link will navigate User to the apple store to dowload TokenPocket.
 
 ```text
-https://tokenpocket.github.io/link?dappUrl=<your dapp url link>
+https://tokenpocket.github.io/applink?dappUrl=<your dapp url link>
 ```
 
 ## Transaction Deeplink (Beta)
@@ -17,5 +17,5 @@ https://tokenpocket.github.io/link?dappUrl=<your dapp url link>
 2. If the user have not install TokenPocket. This link will navigate User to the apple store to dowload TokenPocket.
 
 ```text
-https://tokenpocket.github.io/link?toAddress=<your ethereum address>
+https://tokenpocket.github.io/applink?toAddress=<your ethereum address>
 ```
