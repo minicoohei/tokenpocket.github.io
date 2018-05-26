@@ -5,13 +5,15 @@
 ## Dapps browser in you phone
 
 Support 12 kinds of dapps,  such as Cryptokitties (game), Forkdelta (DEX),  RareBits (Marketplace) and so on.
-> *. Other Dapps will be also added gradually.
+
+* Other Dapps will be also added gradually.
 
 ## Full Overview of your assets
 
 You can see your Ethreum& ERC20 tokens balance and portfolio.
 Simply tracking your digital assets by price of Ethreum and other Tokens(*).
-> *. Tokens lised on CMC(Coin Market Cap)
+
+* Tokens lised on CMC(Coin Market Cap)
 
 ## Safely Managed
 
