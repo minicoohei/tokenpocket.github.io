@@ -7,7 +7,7 @@ This is document of how to use TokenPocket deeplink to connect your Dapps or ICO
 Add this link to your Dapp webside. User can open your Dapp deirctly from TokenPocket
 
 ```text
-https://tokenpocket.github.io/applink?dappUrl=<Dapp Url>
+https://tokenpocket.github.io/applink?dappUrl=Your_Dapp_Url
 ```
 
 1. If user has install TokenPocket. From this link, User can open your dapp in TokenPocket by click this link Directly.
@@ -21,7 +21,7 @@ https://tokenpocket.github.io/applink?dappUrl=<Dapp Url>
 Add this link to your ICO webside. User can send ether to your Contract Address deirctly from TokenPocket
 
 ```text
-https://tokenpocket.github.io/applink?toAddress=<Ethereum Address>
+https://tokenpocket.github.io/applink?toAddress=Your_Ethereum_Address
 ```
 
 1. If user has install TokenPocket. From this link, User can open the transaction page with the address.
