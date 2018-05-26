@@ -4,7 +4,7 @@
         "details": [
            {
                "appID":"A8HTEQW583.token.pocket",
-               "paths":[ "*" ]
+               "paths":[ "/applink/" ]
            }
          ]
     }
