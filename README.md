@@ -1,7 +1,5 @@
 # TaokePocket Ethereum Safe Wallet
 
-[![applestore](/images/applestore.svg)](https://itunes.apple.com/app/id1288636393/)
-
 ## Dapps browser in you phone
 
 Support 12 kinds of dapps,  such as Cryptokitties (game), Forkdelta (DEX),  RareBits (Marketplace) and so on. Other Dapps will be also added gradually.
