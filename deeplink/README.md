@@ -13,7 +13,7 @@ https://tokenpocket.github.io/applink?dappUrl=Your_Dapp_Url
 1. If user has install TokenPocket. From this link, User can open your dapp in TokenPocket by click this link Directly.
 2. If the user have not install TokenPocket. This link will navigate User to the apple store to dowload TokenPocket.
 
-![dapp](/deeplink/dapp.gif) 
+![dapp](/deeplink/dapp.gif)
 
 ## Transaction Deeplink (Beta)
 
