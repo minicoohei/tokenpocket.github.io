@@ -11,6 +11,8 @@ This is document of how to use TokenPocket deeplink to connect your Dapps or ICO
 https://tokenpocket.github.io/applink?dappUrl=<your dapp url link>
 ```
 
+[Sample Dapp Deeplink](https://tokenpocket.github.io/applink?dappUrl=https://www.cryptokitties.co/)
+
 ## Transaction Deeplink (Beta)
 
 1. If user has install TokenPocket. From this link, User can open the transaction page with the address.
@@ -19,3 +21,5 @@ https://tokenpocket.github.io/applink?dappUrl=<your dapp url link>
 ```text
 https://tokenpocket.github.io/applink?toAddress=<your ethereum address>
 ```
+
+[Sample Transaction Deeplink](https://tokenpocket.github.io/applink?toAddress=0xb786f545a33b47078184a0cd559902f3b1d7926c)
