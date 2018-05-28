@@ -12,12 +12,6 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      {% if site.ios_download_url %}
-        <a href="{{ site.ios_download_url }}" class="btn">Download IOS App</a>
-      {% endif %}
-      {% if site.android_download_url %}
-        <a href="{{ site.android_download_url }}" class="btn">Download Android App</a>
-      {% endif %}
     </section>
 
     <section class="main-content">
