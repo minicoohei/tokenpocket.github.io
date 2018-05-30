@@ -40,14 +40,6 @@
             "name": "ERC dEX",
             "url": "https://app.ercdex.com",
             "description": "ウォレットから直接ERC20トークンの取引が可能な分散型取引所"
-        },
-        {
-            "mainNet": true,
-            "valid": true,
-            "uid": "bancor",
-            "name": "Bancor",
-            "url": "https://www.bancor.network",
-            "description": "流動性を担保し、２つの異なるトークンを変換できるプラットフォーム"
         }
     ],
     "2.ゲーム": [

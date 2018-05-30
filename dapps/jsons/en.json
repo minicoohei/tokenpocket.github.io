@@ -40,14 +40,6 @@
             "name": "ERC dEX",
             "url": "https://app.ercdex.com",
             "description": "No need to deposit. Trade ERC20 tokens directly from your wallet."
-        },
-        {
-            "mainNet": true,
-            "valid": true,
-            "uid": "bancor",
-            "name": "Bancor",
-            "url": "https://www.bancor.network",
-            "description": "Convert between any two tokens with no counterparty, at an automatically calculated price."
         }
     ],
     "2.Games": [
